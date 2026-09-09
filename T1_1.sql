@@ -47,14 +47,14 @@ SELECT
     CAST(
         100.0 * (SELECT COUNT(*) FROM VoucherUsers) /
         NULLIF((SELECT COUNT(*) FROM TotalUsers), 0)
-        AS decimal(6, 2)
+        AS decimal(6, 5)
     ) AS VoucherServiceUserPercent,
 
     (SELECT COUNT(*) FROM BookWithMenuUsers) AS BookWithMenuServiceUsers,
     CAST(
         100.0 * (SELECT COUNT(*) FROM BookWithMenuUsers) /
         NULLIF((SELECT COUNT(*) FROM TotalUsers), 0)
-        AS decimal(6, 2)
+        AS decimal(6, 5)
     ) AS BookWithMenuServiceUserPercent,
 
     (SELECT COUNT(*) FROM TotalUsers) AS TotalUsers;
