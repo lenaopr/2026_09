@@ -2,7 +2,6 @@ USE Mars;
 GO
 
 -- Active POIs that have ever joined Voucher service (ServiceTypeId = 28).
--- Do not filter on service status: this is a historical participation list.
 SELECT
 	mp.PoiId AS mars_poiid,
 	mp.OrPoiId AS orpoiid,
