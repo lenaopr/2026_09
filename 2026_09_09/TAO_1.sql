@@ -1,7 +1,7 @@
 /*
 1345
 
-Takeaway orders - last three calendar months through today.
+Takeaway orders - last three months
 
 Auto workflow exclusion is based on the event snapshot in MetaData:
 	AcceptedUser.Type = 0 = auto accepted

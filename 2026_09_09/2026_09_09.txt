@@ -1,0 +1,27 @@
+Takeaway order
+Last 3 months 
+Exclude all auto-accept/ auto ready transaction Field 
+1) total transaction 
+2) Merchant order accept time (Exclude extreme long case) 
+- P90 - P80 - P70 - P60 - P50 - Average 
+3) Customer Cancel number 
+4) Merchant Cancel number 
+5) System cancel number 
+6) Merchant ready time (order manual accept time - order manual ready time 
+- P90 - P80 - P70 - P60 - P50 - Average
+
+
+
+import os
+查找當前jupyter文件路徑
+print(os.getcwd())
+查找所需文件路徑
+print(os.path.abspath(path_enum))
+
+建立軟連接
+import os
+real_file = os.path.abspath(path_enum 目標文件路徑)
+print(real_file)
+!ln -s "{real_file}" enum_file（可命名爲其他）
+刪除軟連接
+!rm enum_file
