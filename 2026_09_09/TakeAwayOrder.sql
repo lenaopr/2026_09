@@ -1,4 +1,6 @@
 /*
+1345
+
 Takeaway orders - last three calendar months through today.
 
 Auto workflow exclusion is based on the event snapshot in MetaData:
@@ -38,3 +40,72 @@ SELECT
 							 OR rejected_user_type = '0' THEN 1 ELSE 0 END) AS system_cancel_number
 FROM order_base
 WHERE is_auto_workflow = 0;
+
+
+/*
+2 & 6
+
+Acceptance time: CreateTime to AcceptedTime.
+Ready time: AcceptedTime to ReadyPickupTime.
+Manual operations: Event types other than 0.
+Extreme long cases: durations over 24h.
+6: remove automatic & keep manual 
+
+*/
+WITH accept_time AS (
+	SELECT
+		DATEDIFF(SECOND, tao.CreateTime, tao.AcceptedTime) / 60.0 AS duration_minutes
+	FROM mars.dbo.TakeAwayOrder tao WITH (NOLOCK)
+	WHERE tao.CreateTime >= @start_date
+		AND tao.CreateTime < @end_date
+		AND tao.AcceptedTime >= tao.CreateTime
+        AND ISNULL(JSON_VALUE(tao.MetaData, '$.AcceptedUser.Type'), '') <> '0'
+        AND ISNULL(JSON_VALUE(tao.MetaData, '$.ReadyUser.Type'), '') <> '0'
+),
+manual_ready_time AS (
+	SELECT
+		DATEDIFF(SECOND, tao.AcceptedTime, tao.ReadyPickupTime) / 60.0 AS duration_minutes
+	FROM mars.dbo.TakeAwayOrder tao WITH (NOLOCK)
+	WHERE tao.CreateTime >= @start_date
+		AND tao.CreateTime < @end_date
+		AND tao.AcceptedTime >= tao.CreateTime
+		AND tao.ReadyPickupTime >= tao.AcceptedTime
+		AND JSON_VALUE(tao.MetaData, '$.AcceptedUser.Type') IS NOT NULL
+		AND JSON_VALUE(tao.MetaData, '$.AcceptedUser.Type') <> '0'
+		AND JSON_VALUE(tao.MetaData, '$.ReadyUser.Type') IS NOT NULL
+		AND JSON_VALUE(tao.MetaData, '$.ReadyUser.Type') <> '0'
+),
+timing_base AS (
+	SELECT 'merchant_order_accept_time' AS metric, duration_minutes
+	FROM accept_time
+	WHERE duration_minutes <= 1440
+
+	UNION ALL
+
+	SELECT 'merchant_ready_time' AS metric, duration_minutes
+	FROM manual_ready_time
+	WHERE duration_minutes <= 1440
+),
+timing_percentiles AS (
+	SELECT
+		metric,
+		duration_minutes,
+		PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY duration_minutes) OVER (PARTITION BY metric) AS p90,
+		PERCENTILE_CONT(0.80) WITHIN GROUP (ORDER BY duration_minutes) OVER (PARTITION BY metric) AS p80,
+		PERCENTILE_CONT(0.70) WITHIN GROUP (ORDER BY duration_minutes) OVER (PARTITION BY metric) AS p70,
+		PERCENTILE_CONT(0.60) WITHIN GROUP (ORDER BY duration_minutes) OVER (PARTITION BY metric) AS p60,
+		PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY duration_minutes) OVER (PARTITION BY metric) AS p50
+	FROM timing_base
+)
+SELECT
+	metric,
+	COUNT_BIG(*) AS order_count,
+	CAST(MAX(p90) AS DECIMAL(10, 2)) AS p90,
+	CAST(MAX(p80) AS DECIMAL(10, 2)) AS p80,
+	CAST(MAX(p70) AS DECIMAL(10, 2)) AS p70,
+	CAST(MAX(p60) AS DECIMAL(10, 2)) AS p60,
+	CAST(MAX(p50) AS DECIMAL(10, 2)) AS p50,
+	CAST(AVG(duration_minutes) AS DECIMAL(10, 2)) AS average
+FROM timing_percentiles
+GROUP BY metric
+ORDER BY metric;
