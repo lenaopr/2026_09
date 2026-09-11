@@ -90,7 +90,7 @@ qualified_users AS (
 		MAX(CASE WHEN rp.Rank2 = 2 THEN rp.first_booking_datetime END) AS Target_Time
 	FROM ranked_pois rp
 	GROUP BY rp.mars_userid
-	HAVING MAX(rp.UniquePOICount) >= 1         --   >= 1:keep records with 1 unique POI (same as bookmore format), >=2: only show qualified users
+	HAVING MAX(rp.UniquePOICount) >= 1       --   >= 1:keep records with 1 unique POI (same as bookmore format), >=2: only show qualified users
 )
 SELECT
 	rb.RestaurantID,
