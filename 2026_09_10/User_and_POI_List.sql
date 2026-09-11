@@ -33,7 +33,7 @@ WITH promo_bookings AS (
         WHERE bpt.BookingId = b.BookingId
         AND bpt.PaymentStatus = 10      -- paid
         AND bpt.BookingPaymentTransactionType = 1  -- booking menu
-        AND EXISTS (         -- ensure booked & completed
+        AND EXISTS (         -- ensure at least 1 booked & completed order
             SELECT 1
             FROM mars.dbo.BookingMenuOrder bmo WITH (NOLOCK)
             WHERE bmo.BookingId = b.BookingId
@@ -42,15 +42,15 @@ WITH promo_bookings AS (
     ) menu
 	WHERE ow.OfferId IN (549787, 548057)
 			AND ow.Status = 15      --redeemed
-	  AND b.Status = 10
+	  AND b.Status = 10  -- confirmed
 	  AND b.BookingTime >= @start_date
 	  AND b.BookingTime < @end_date
 	  AND b.UserId IS NOT NULL
 	  AND b.UserId <> 0
-      AND p.Status NOT IN (2, 6)
+      AND p.Status NOT IN (2,6) -- from bookmore.ipynb
       AND p.RegionId = 0
 ),
-ranked_bookings AS (
+ranked_bookings AS (       -- same user, same restaurant, booking order --> Rank
     SELECT
         pb.*,
         ROW_NUMBER() OVER (
@@ -59,7 +59,7 @@ ranked_bookings AS (
         ) AS Rank
     FROM promo_bookings pb
 ),
-first_poi_booking AS (
+first_poi_booking AS (            -- first booking in each restaurant
     SELECT
         rb.mars_userid,
         rb.RestaurantID,
@@ -68,7 +68,7 @@ first_poi_booking AS (
     FROM ranked_bookings rb
     WHERE rb.Rank = 1
 ),
-ranked_pois AS (
+ranked_pois AS (               -- same user, diff restaurant, first visit  --> Rank2
     SELECT
         fpb.mars_userid,
         fpb.RestaurantID,
@@ -86,7 +86,7 @@ ranked_pois AS (
 qualified_users AS (
 	SELECT
 		rp.mars_userid,
-		MAX(rp.UniquePOICount) AS UniquePOICount,
+		MAX(rp.UniquePOICount) AS UniquePOICount,      
 		MAX(CASE WHEN rp.Rank2 = 2 THEN rp.first_booking_datetime END) AS Target_Time
 	FROM ranked_pois rp
 	GROUP BY rp.mars_userid
@@ -105,7 +105,7 @@ SELECT
             SELECT 1
             FROM mars.dbo.Booking no_show WITH (NOLOCK)
             WHERE no_show.UserId = rb.mars_userid
-                AND no_show.Status = 4
+                AND no_show.Status = 4                 -- no show 
                 AND no_show.BookingTime >= @start_date
                 AND no_show.BookingTime < @end_date
         ) THEN 'Y'
