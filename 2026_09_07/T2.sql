@@ -1,7 +1,7 @@
 USE Mars;
 GO
 
--- Active POIs that have ever joined Voucher service (ServiceTypeId = 28).
+-- Active POIs that have ever joined Voucher service (ServiceTypeId = 5).
 SELECT
 	mp.PoiId AS mars_poiid,
 	mp.OrPoiId AS orpoiid,
@@ -22,7 +22,7 @@ WHERE mp.RegionId = 0
 	AND mp.Status <> 0
 	AND orp.RegionId = 0
 	AND orp.Status = 10
-  AND bs.ServiceTypeId = 28
+  AND bs.ServiceTypeId = 5
 	AND bc.ContractEndTime >= CAST(GETDATE() AS date)
 GROUP BY
 	mp.PoiId,
