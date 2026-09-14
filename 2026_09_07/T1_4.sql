@@ -69,7 +69,7 @@ SELECT
         NULLIF((SELECT COUNT(*) FROM ActiveOp3Users), 0)
         AS decimal(6, 5)
     ) AS BookWithMenuServiceUserPercent,
-    
+
     (SELECT COUNT(*) FROM OverlapUsers) AS OverlapUsers,
 
     (SELECT COUNT(*) FROM ActiveOp3Users) AS ActiveUsers;
