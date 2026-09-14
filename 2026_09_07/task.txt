@@ -1,4 +1,5 @@
-1/ # and % of user ever used voucher service AND book-with-menu service (Tracking period: 1 Jan 2025 – 31 Aug 2026)
+1/ # and % of user ever used voucher service AND book-with-menu service 
+   (Tracking period: 1 Jan 2025 – 31 Aug 2026)
 
 voucher service
 voucher ssouserid
