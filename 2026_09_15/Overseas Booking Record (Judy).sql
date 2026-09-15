@@ -41,7 +41,7 @@ group by bmo.bookingid
 
 -- General Booking Query --
 SELECT  IIF(R.regionId=1, 'MO', C.CountryCode), R.NameLang1, P.Poiid AS [BBO POIID], P.NameLang1, b.[BookingId], u.username, b.UserId AS [BBO UserId],--- ou.userid,
-OU.Email, OU.Phone, 
+-- OU.Email, OU.Phone, 
 convert(date,b.BookingTime), convert(time, t.TimeSlotTime), convert(date,SubmitTime), convert(time,SubmitTime), b.AmendedSeat,
 IIF(obm.menusold>0, 'yes', IIF(pbm.menusold>0, 'yes', 'no')) as booking_menu,
 COALESCE(obm.MenuSold, pbm.menusold) as menu_count,
