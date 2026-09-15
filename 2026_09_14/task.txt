@@ -1,4 +1,5 @@
-1. report script rewrite, and generation
+1. [Book-with-Menu] User list for targeting purpose - for SEP 2026 
+    report script rewrite, and generation
     - menu targeting user segments new.ipynb
 
 2. bunch of request handling (~kimmy previous work)
