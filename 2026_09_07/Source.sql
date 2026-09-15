@@ -26,7 +26,7 @@ DECLARE @vPayerReferenceId AS varchar(100) = @PayerReferenceId,
 @vUserSelectDateTo AS datetime = @UserSelectDateTo; 
 
 SELECT COUNT(0)  
-FROM [PaymentTransaction] pt WITH (nolock)                           
+FROM [vw_PaymentTransaction] pt WITH (nolock)                           
 LEFT JOIN [User] u WITH (nolock) ON u.SSOUserId = pt.SSOUserId                           
 LEFT JOIN [Poi] p WITH (nolock) ON p.Poiid = pt.Poiid                           
 LEFT JOIN [CorpAccountPoi] cap WITH (nolock) ON cap.Poiid = pt.Poiid 						  
