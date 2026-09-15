@@ -1,0 +1,6 @@
+1. report script rewrite, and generation
+    - menu targeting user segments.ipynb
+
+2. bunch of request handling (~kimmy previous work)
+
+3. data correction for 20260907 T1: active user handling

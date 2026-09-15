@@ -20,23 +20,9 @@ VoucherUsers AS (
     WHERE vo.SSOUserId IS NOT NULL
         AND vo.Status = 10    -- paid
         AND op3User.Status = 10  -- active
-        -- AND vo.Status = 15      -- Redeemed
-        --  AND vo.RedeemPoiId IS NOT NULL
         AND vo.ModifyTime >= @StartDate
         AND vo.ModifyTime < @EndDate
 ),
-/*OldVoucherUsers AS (
-    -- A voucher service user is a user with a redeemed voucher.
-    SELECT DISTINCT ow.SSOUserId
-    FROM dbo.OfferWallet ow WITH (NOLOCK)
-    INNER JOIN ActiveOp3Users oru
-        ON oru.SSOUserId = ow.SSOUserId
-    WHERE ow.Status = 15     -- redeemed
-        AND ow.CommodityType = 3    -- Voucher
-        AND ow.ModifyTime >= @StartDate
-        AND ow.ModifyTime < @EndDate      
-)*/
-
 
 BookWithMenuUsers AS (
     -- A book-with-menu user has a successful menu payment for an booking.
@@ -46,7 +32,10 @@ BookWithMenuUsers AS (
         ON b.BookingId = bpt.BookingId
     INNER JOIN dbo.[User] marsUser WITH (NOLOCK)
         ON marsUser.UserId = b.UserId
+    INNER JOIN openrice3.dbo.[User] op3User WITH (NOLOCK)
+        ON op3User.SSOUserId = marsUser.SSOUserId
     WHERE marsUser.SSOUserId IS NOT NULL
+        AND op3User.Status = 10  -- active
         AND bpt.PaymentStatus = 10    -- paid                 -- b.Status = 10 : confirmed
         AND bpt.BookingPaymentTransactionType = 1   -- booking menu
         AND bpt.PaymentTime >= @StartDate
