@@ -18,10 +18,11 @@ VoucherUsers AS (
     INNER JOIN openrice3.dbo.[User] op3User WITH (NOLOCK)
         ON op3User.SSOUserId = vo.SSOUserId
     WHERE vo.SSOUserId IS NOT NULL
+        AND vo.Type in (0,1)                              --
         AND vo.Status = 10    -- paid
         AND op3User.Status = 10  -- active
-        AND vo.ModifyTime >= @StartDate
-        AND vo.ModifyTime < @EndDate
+        AND vo.PaymentTime >= @StartDate
+        AND vo.PaymentTime < @EndDate
 ),
 
 BookWithMenuUsers AS (
