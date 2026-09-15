@@ -20,14 +20,24 @@ and b.status =10
  AND Source IN (1, 4, 5, 6, 7, 9, 11, 12, 13, 21, 25, 26, 27, 28, 29, 30) 
 
 
-use openrice3
 ----3. Asia Miles Bound Accounts 
+use openrice3
 SELECT COUNT(DISTINCT UserId) FROM UserIM WHERE 
 IMTypeId IN (30, 31)
 AND ModifyTime < @end_date
 
 
+
 --- 4.       OpenRice Macau monthly page views (Aug 2026)  -->  Big query
+/*
+SELECT 
+(select count(1) FROM `openrice-production.ORGA.SV_202608*` 
+where platform in ('android', 'ios') and region = 'MO')
++
+(select count(1) from `openrice-production.ORGA.PV_202608*` 
+where Platform in ('mobile', 'desktop', 'tablet') and eventcategory = 'PageView' and eventlabelraw like '%/macau/%')
+*/
+
 
 --- 5.       Total Bookmark count for ONLY HK Active POIs
 --- 6.       Total Bookmark count for ALL REGIONS Active POIs (including HK)
