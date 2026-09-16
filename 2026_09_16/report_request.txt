@@ -1,3 +1,7 @@
 Report
 
-POI list: same address, status = active & renovate
+1. POI list: same address, status = active & renovate
+
+2. Booking service Analysis
+want to check if our 2026 booking submitted and attended booking sources to separate HK users (+852), 
+mainland users (86+), and overseas users (grouped by country codes to see which are higher). 
