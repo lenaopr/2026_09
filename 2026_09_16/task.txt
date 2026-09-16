@@ -9,3 +9,31 @@ Foodwise Monthly Report (launch from 31Aug2026. last for 1 year at least)
     Daily Theme Listing Impressions 
     Daily POIs Impressions (SR1 and or SR2)
     Daily Map pin impressions
+
+進入少鹽少糖界面
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:25:18.567000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+09:25:18|HK.LMS2.35336.tab.-990.1
+
+進入少鹽少糖界面后展示的餐廳：
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:25:54.913000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+09:25:54|| impression.poi| CityID:0; POIID:590531; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+09:25:54|| impression.poi| CityID:0; POIID:517915; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+
+點擊臨近餐廳的界面后，一間有少鹽少糖標志，一間無的餐廳:
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:29:17.546000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+09:29:17|| impression.poi| CityID:0; POIID:8039; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.Nearby.SR1.1
+09:29:40|| impression.poi| CityID:0; POIID:18658; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.Nearby.SR1.1
+
+少鹽少糖界面advance search：
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:23:47.343000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+09:23:47|| or.advsearch.open.filter| CityID:0;sr:qcksearch;Lang:zh_TW;Ver:7.20.4; sn:hkhk.LMS2.35336.tab.-990.1
+09:23:55|| or.search.adv| CityID:0;geo:22.2914746%2C114.208161;SortBy:orscoredesc;LndID:35336;Page:1;sr:mmsBiz;Lang:zh_TW;Ver:7.20.4; sn:hk.Search.layer
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:23:47.343000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+09:23:47|HK.AdvSearch
+09:23:53|HK.LMS2.35336.tab.-990.1
+
