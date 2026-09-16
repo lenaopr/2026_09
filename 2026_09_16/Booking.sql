@@ -65,7 +65,6 @@ final_result AS (
 )
 SELECT
     NameLang1 AS Area,
-    DinerPhoneAreaCode_Hash,
     [Type],
     booking_count
 FROM final_result
