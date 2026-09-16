@@ -1,12 +1,12 @@
-USE Mars;
 
 -- 從重複地址的 POI 中，提取 Normal (10) & Renovate (3) 
 WITH SameAddress AS (
 	SELECT
 		AddressLang1
 	FROM openrice3.dbo.Poi WITH (NOLOCK)
-		WHERE RegionId = 0
-			AND NULLIF(LTRIM(RTRIM(AddressLang1)), '') IS NOT NULL
+	WHERE RegionId = 0
+        AND Status IN (3, 10)
+		AND NULLIF(LTRIM(RTRIM(AddressLang1)), '') IS NOT NULL
 	GROUP BY AddressLang1
 		HAVING COUNT(*) > 1
 )
@@ -20,8 +20,8 @@ SELECT
 	END AS poi_status_name,
 	orp.NameLang1 AS poi_name_1,
 	orp.NameLang2 AS poi_name_2,
-	orp.AddressLang1 AS address,
-	d.NameLang1 AS district,
+	orp.AddressLang1 AS address_1,
+    orp.AddressLang2 AS address_2,
 	orp.CreateTime,
 	orp.ModifyTime
 FROM SameAddress sa
@@ -32,9 +32,8 @@ INNER JOIN openrice3.dbo.Poi orp WITH (NOLOCK)
 LEFT JOIN mars.dbo.Poi mp WITH (NOLOCK)
 	ON mp.OrPoiId = orp.PoiId
    AND mp.RegionId = 0
-LEFT JOIN openrice3.dbo.District d WITH (NOLOCK)
-	ON d.DistrictId = orp.DistrictId
+
 ORDER BY
 	orp.AddressLang1,
-	CASE orp.Status WHEN 10 THEN 1 WHEN 3 THEN 2 END,
-	orp.PoiId;
+	CASE orp.Status WHEN 10 THEN 1 WHEN 3 THEN 2 END
+	--orp.PoiId;
