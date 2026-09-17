@@ -18,7 +18,7 @@
 38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:41:19.159000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
 -[ScreenView]:
 14:41:19|HK.Takeaway.order.1138370
-14:41:08|HK.Takeaway.order.1138370
+14:41:08|HK.Takeaway.order.1138370,[AmendedSeat]
 14:41:06|HK.SR2.Overview.1138370
 
 38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:41:19.166000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
@@ -100,3 +100,15 @@
 [11:17 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:16:52.846000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
 -[Events]:
 11:16:52|| or.takeaway.place-order| CityID:0; POIID:798669 ; Sr:checkout;;Lang:zh_TW;Ver:7.20.4
+
+
+Indicator: 
+
+action 的"_" 改爲"."的話：
+takeaway.csv EventAction = eventsAggregate_v4.csv event_name
+takeaway.csv: 
+EventAction: or.takeaway.order, EventLabelRaw: HK.Takeaway.order.438899
+
+eventsAggregate_v4.csv:
+event_name: user_bookmark_poi, firebase_screen: HK.Takeaway.payment.617183, sr: Booking
+event_name: or_takeaway_pay, firebase_screen: HK.SelfOrder.payment.821747, sr: payment
