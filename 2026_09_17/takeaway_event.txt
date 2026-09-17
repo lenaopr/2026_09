@@ -102,6 +102,15 @@
 11:16:52|| or.takeaway.place-order| CityID:0; POIID:798669 ; Sr:checkout;;Lang:zh_TW;Ver:7.20.4
 
 
+<<<<<<< HEAD
+=======
+
+takeaway order possible journey
+1. search  --> find restaurant (POI) --> click POI --> Menu --> lay order
+2. bookmark --> choose POI --> menu --> lay order
+
+
+>>>>>>> d118786353665bcaf6bc5cfdca80da62ae8e25df
 Indicator: 
 
 action 的"_" 改爲"."的話：
@@ -109,6 +118,15 @@ takeaway.csv EventAction = eventsAggregate_v4.csv event_name
 takeaway.csv: 
 EventAction: or.takeaway.order, EventLabelRaw: HK.Takeaway.order.438899
 
+<<<<<<< HEAD
 eventsAggregate_v4.csv:
 event_name: user_bookmark_poi, firebase_screen: HK.Takeaway.payment.617183, sr: Booking
 event_name: or_takeaway_pay, firebase_screen: HK.SelfOrder.payment.821747, sr: payment
+=======
+
+eventsAggregate_v4.csv:
+event_name: user_bookmark_poi, firebase_screen: HK.Takeaway.payment.617183, sr: Booking
+event_name: or_takeaway_pay, firebase_screen: HK.SelfOrder.payment.821747, sr: payment
+
+
+>>>>>>> d118786353665bcaf6bc5cfdca80da62ae8e25df
