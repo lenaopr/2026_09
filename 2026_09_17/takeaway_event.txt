@@ -1,0 +1,102 @@
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:40:07.503000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[ScreenView]:
+14:40:07|HK.ThemeList.Takeaway.1
+
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:40:31.519000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[Events]:
+14:40:25|| or.poi.get-overview| CityID:0;Lang:hk;Ver:7.20.5;POIID:1138370;poiTypeId:1;sn:HK.Takeaway.order.1138370
+14:40:25|| or.poi.get-details| CityID:0;Lang:hk;Ver:7.20.5;POIID:1138370;poiTypeId:1;sr:deeplink;sn:HK.Takeaway.order.1138370
+14:40:22|| or.takeaway.order| CityID:0;Lang:hk;Ver:7.20.5;POIID:1138370;sr:menu;sn:HK.Takeaway.order.1138370
+
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:40:31.530000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[ScreenView]:
+14:40:31|HK.SR2.Reel.photo.29344361
+14:40:30|HK.SR2.photo.all.1138370
+14:40:25|HK.SR2.Overview.1138370
+14:40:22|HK.Takeaway.order.1138370
+
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:41:19.159000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[ScreenView]:
+14:41:19|HK.Takeaway.order.1138370
+14:41:08|HK.Takeaway.order.1138370
+14:41:06|HK.SR2.Overview.1138370
+
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:41:19.166000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[Events]:
+14:41:19|| or.takeaway.order| CityID:0;Lang:hk;Ver:7.20.5;POIID:1138370;sr:menu;sn:HK.Takeaway.order.1138370
+
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:41:29.246000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[ScreenView]:
+14:41:29|HK.ThemeList.Takeaway.1
+
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:45:26.640000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[ScreenView]:
+14:45:26|HK.MyBookmarkLandmark.1     -- 收藏
+14:45:23|HK.MyBookmarkCat.1
+14:45:22|HK.Home
+14:45:22|HK.ThemeList.Takeaway.1
+14:45:17|HK.Takeaway.order.1138370
+
+38456c06-c8db-4645-a7f2-43492e1dcd53@2026-09-16 14:45:26.637000+08:00 OpenRice_iOS/7.20.5 (iPhone; iOS 26.6);Lang:zh-HK:
+-[Events]:
+14:45:26|| or.myor.bkmOffer| CityID:0;Lang:hk;Ver:7.20.5;sn:HK.MyBookmarkCat.1
+14:45:23|| or.myor.bkmPOI| CityID:0;Lang:hk;Ver:7.20.5;sr:btmBar;sn:HK.Home
+14:45:23|| myor.search.bkmPOI| CityID:0;Lang:hk;Ver:7.20.5;sr:btmBar;sn:HK.Home
+14:45:17|| or.takeaway.order| CityID:0;Lang:hk;Ver:7.20.5;POIID:1138370;sr:menu;sn:HK.Takeaway.order.1138370
+14:45:16|| or.app.resume| CityID:0;Lang:hk;Ver:7.20.5
+
+
+點擊外賣自取
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:10:09.952000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+11:10:18|| or.search.themelist.takeaway| CityID:0 ;Sr:index ;sortFlt:60;startat:0;sortby:60;regionid:0;takeaway:true;geo:22.2915346%2C114.2081538;rows:20;apientrypoint:21;Lang:zh_TW;Ver:7.20.4
+--------------------------------------------
+進入外賣自取餐廳頁面
+[11:10 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:10:09.960000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+11:10:10|HK.Home
+11:10:18|HK.ThemeList.Takeaway.1
+--------------------------------------------
+瀏覽外賣自取餐廳
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:10:52.486000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+11:10:52|| or.takeaway.order| CityID:0; POIID:798669 ;Sr:themesr1;Lang:zh_TW;Ver:7.20.4
+11:10:52|| or.poi.get-photos.food| POIID:798669; poiTypeId:1; CityID:0;Sr:sr2;Page No.:1;PhotoTypeId:1;Lang:zh_TW;Ver:7.20.4; sn:HK.SR2.photo.food.798669
+--------------------------------------------
+[11:11 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:10:52.541000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+11:10:52|HK.SR2.photo.food.798669
+11:10:52|HK.Takeaway.order.798669
+--------------------------------------------
+點擊店家后，展示外賣自取菜單
+33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:13:24.467000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+11:13:24|HK.SR2.emenu.detail.798669
+--------------------------------------------
+選擇食物
+[11:13 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:13:24.133000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+11:13:24|| poi.emenu.get-item| CityID:0;itemID:ORI-103;Lang:zh_TW;Ver:7.20.4
+--------------------------------------------
+加入購物車
+[11:15 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:15:06.141000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+11:15:06|HK.Takeaway.order.798669
+--------------------------------------------
+下單
+[11:15 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:15:43.084000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+11:15:43|| or.takeaway.checkout| CityID:0; POIID:798669; Sr:menu;Lang:zh_TW;Ver:7.20.4
+--------------------------------------------
+[11:15 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:15:43.146000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+11:15:43|HK.Takeaway.checkout.798669
+--------------------------------------------
+選擇優惠並下單
+[11:17 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:16:52.895000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+11:16:52|HK.Takeaway.payment.798669
+--------------------------------------------
+[11:17 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:16:52.846000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+11:16:52|| or.takeaway.place-order| CityID:0; POIID:798669 ; Sr:checkout;;Lang:zh_TW;Ver:7.20.4

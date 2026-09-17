@@ -2,6 +2,12 @@
     report script rewrite, and generation
     - menu targeting user segments new.ipynb
 
+from Tom
+
+    original script: http://172.17.2.220:8888/notebooks/Dan/booking%20releated%20/menu_targeting_user_segments.ipynb
+                	http://172.17.2.220:8888/notebooks/Dan/booking%20releated%20/deduplicate_users_complete.ipynb
+
+
 2. bunch of request handling (~kimmy previous work)
 
 3. data correction for 20260907 
