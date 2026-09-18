@@ -65,13 +65,6 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:994595;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 00:23:01+00:00,ios
-178112,2c1ec027-be02-4201-a8ce-09c4ca6031b2,2026-09-15 00:44:11.200000+00:00,ee1fd8bc-9843-44d2-95d2-b0fab193b1eb,123.202.105.130,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '994595'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
-      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:994595;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 00:23:01+00:00,ios
 178112,2c1ec027-be02-4201-a8ce-09c4ca6031b2,2026-09-15 00:44:11.200000+00:00,ee1fd8bc-9843-44d2-95d2-b0fab193b1eb,123.202.105.130,or.search.get-poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -80,6 +73,13 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:994595;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 00:23:01+00:00,ios
+178112,2c1ec027-be02-4201-a8ce-09c4ca6031b2,2026-09-15 00:44:11.200000+00:00,ee1fd8bc-9843-44d2-95d2-b0fab193b1eb,123.202.105.130,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '994595'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
+      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:994595;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 00:23:01+00:00,ios
 178112,2c1ec027-be02-4201-a8ce-09c4ca6031b2,2026-09-15 00:44:13.700000+00:00,ee1fd8bc-9843-44d2-95d2-b0fab193b1eb,123.202.105.130,or.takeaway.order,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -124,13 +124,6 @@
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 00:44:01+00:00,ios
-127050,1f894cab868b116f,2026-09-15 01:38:56.900000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '183366'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
-      dtype=object)}",CityID:0;POIID:183366;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
 127050,1f894cab868b116f,2026-09-15 01:38:56.900000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '183366'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
@@ -139,7 +132,7 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
       dtype=object)}",CityID:0;POIID:183366;poiTypeId:0;Sr:sr1;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
-127050,1f894cab868b116f,2026-09-15 01:38:57.900000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+127050,1f894cab868b116f,2026-09-15 01:38:56.900000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '183366'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
@@ -154,6 +147,13 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
       dtype=object)}",CityID:0;POIID:183366;poiTypeId:0;Sr:sr1;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
+127050,1f894cab868b116f,2026-09-15 01:38:57.900000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '183366'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
+      dtype=object)}",CityID:0;POIID:183366;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
 127050,1f894cab868b116f,2026-09-15 01:39:00.400000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.back,,,,"{'list': array([{'item': {'List': 0, 'Param': 'POIID', 'Value': '183366'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
        {'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
@@ -177,15 +177,6 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
       dtype=object)}","CityID:0;geo:22.4620178,114.1522133;Page:1;sr:;whatwhere:黃埔pepper lunch;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer",Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
-127050,1f894cab868b116f,2026-09-15 01:39:03.700000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.search.quick,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'geo', 'Value': '22.4620178,114.1522133'}},
-       {'item': {'List': 0, 'Param': 'Page', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'sr', 'Value': ''}},
-       {'item': {'List': 0, 'Param': 'whatwhere', 'Value': '黃埔pepper lunch'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
-      dtype=object)}","CityID:0;geo:22.4620178,114.1522133;Page:1;sr:;whatwhere:黃埔pepper lunch;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer",Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
 127050,1f894cab868b116f,2026-09-15 01:39:03.700000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,impression.poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '183366'}},
        {'item': {'List': 0, 'Param': 'Type', 'Value': 'General'}},
@@ -195,6 +186,15 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
       dtype=object)}",CityID:0; POIID:183366; Type:General; poiTypeId:1; Sr:2;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:56:01+00:00,android
+127050,1f894cab868b116f,2026-09-15 01:39:03.700000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.search.quick,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'geo', 'Value': '22.4620178,114.1522133'}},
+       {'item': {'List': 0, 'Param': 'Page', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'sr', 'Value': ''}},
+       {'item': {'List': 0, 'Param': 'whatwhere', 'Value': '黃埔pepper lunch'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
+      dtype=object)}","CityID:0;geo:22.4620178,114.1522133;Page:1;sr:;whatwhere:黃埔pepper lunch;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer",Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
 127050,1f894cab868b116f,2026-09-15 01:39:04.200000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.search.layer,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
@@ -239,13 +239,6 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
       dtype=object)}",CityId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:56:01+00:00,android
-127050,1f894cab868b116f,2026-09-15 01:39:12.600000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '897086'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
-      dtype=object)}",CityID:0;POIID:897086;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:56:01+00:00,android
 127050,1f894cab868b116f,2026-09-15 01:39:12.600000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '897086'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
@@ -254,18 +247,18 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
       dtype=object)}",CityID:0;POIID:897086;poiTypeId:0;Sr:search_history;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:56:01+00:00,android
-127050,1f894cab868b116f,2026-09-15 01:39:13.500000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.search.layer.record,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityId', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
-      dtype=object)}",CityId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
-127050,1f894cab868b116f,2026-09-15 01:39:13.600000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+127050,1f894cab868b116f,2026-09-15 01:39:12.600000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '897086'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
-      dtype=object)}",CityID:0;POIID:897086;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
+      dtype=object)}",CityID:0;POIID:897086;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:56:01+00:00,android
+127050,1f894cab868b116f,2026-09-15 01:39:13.500000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.search.layer.record,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityId', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
+      dtype=object)}",CityId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
 127050,1f894cab868b116f,2026-09-15 01:39:13.600000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '897086'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
@@ -274,6 +267,13 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
       dtype=object)}",CityID:0;POIID:897086;poiTypeId:0;Sr:search_history;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
+127050,1f894cab868b116f,2026-09-15 01:39:13.600000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '897086'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
+      dtype=object)}",CityID:0;POIID:897086;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 13:55:01+00:00,android
 127050,1f894cab868b116f,2026-09-15 01:39:18.200000+00:00,5be930b6-83c3-42b9-a401-dba18fc1f458,180.188.172.244,or.app.resume,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh-HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
@@ -478,16 +478,16 @@
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}}],
       dtype=object)}",CityID:0; Lang:zh-HK; Ver:7.20.4; Device:m3q;Lang:zh_HK;Ver:7.20.4,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 06:29:01+00:00,android
-925466,e5f59098851843a7,2026-09-15 06:50:07.600000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.qcksearch,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Home'}}],
-      dtype=object)}",CityID:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Home,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 06:30:01+00:00,android
 925466,e5f59098851843a7,2026-09-15 06:50:07.600000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.search.layer,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.QckSearch'}}],
       dtype=object)}",CityID:0;Lang:zh_HK;Ver:7.20.4; sn:hk.QckSearch,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 06:30:01+00:00,android
+925466,e5f59098851843a7,2026-09-15 06:50:07.600000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.qcksearch,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Home'}}],
+      dtype=object)}",CityID:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Home,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 06:30:01+00:00,android
 925466,e5f59098851843a7,2026-09-15 06:50:10.400000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.search.layer,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
@@ -520,21 +520,6 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
       dtype=object)}",CityID:0; POIID:1140002; Type:General; poiTypeId:1; Sr:2;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 06:29:01+00:00,android
-925466,e5f59098851843a7,2026-09-15 06:50:34.400000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '1140002'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
-      dtype=object)}",CityID:0;POIID:1140002;poiTypeId:1;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 06:29:01+00:00,android
-925466,e5f59098851843a7,2026-09-15 06:50:34.400000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '1140002'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'Sr', 'Value': 'sr1'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
-      dtype=object)}",CityID:0;POIID:1140002;poiTypeId:1;Sr:sr1;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 06:29:01+00:00,android
 925466,e5f59098851843a7,2026-09-15 06:50:34.400000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.search.get-poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'POIID', 'Value': '1140002'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
        {'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
@@ -543,6 +528,21 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
       dtype=object)}",POIID:1140002;poiTypeId:1; CityID:0; Sr:sr1;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 06:29:01+00:00,android
+925466,e5f59098851843a7,2026-09-15 06:50:34.400000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '1140002'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'Sr', 'Value': 'sr1'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
+      dtype=object)}",CityID:0;POIID:1140002;poiTypeId:1;Sr:sr1;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 06:29:01+00:00,android
+925466,e5f59098851843a7,2026-09-15 06:50:34.400000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '1140002'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.SR1.1'}}],
+      dtype=object)}",CityID:0;POIID:1140002;poiTypeId:1;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.SR1.1,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 06:29:01+00:00,android
 925466,e5f59098851843a7,2026-09-15 06:50:45.200000+00:00,d9350e8f-1354-48b2-9808-6985b454a9c8,203.160.86.12,or.takeaway.order,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '1140002'}},
        {'item': {'List': 0, 'Param': 'PoiTypeId', 'Value': '1'}},
@@ -783,11 +783,6 @@
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}}],
       dtype=object)}",CityID:0; Lang:zh-HK; Ver:7.20.4;Lang:zh_HK;Ver:7.20.4,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:07:01+00:00,android
-240829,3bc6f903023545c0,2026-09-15 07:27:23+00:00,cf68039a-60e7-4ea3-a79a-4a858cccdabc,124.217.188.215,or.app.openpush,,,,"{'list': array([{'item': {'List': 0, 'Param': 'POIID', 'Value': ''}},
-       {'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}}],
-      dtype=object)}",POIID:; CityID:0;Lang:zh_HK;Ver:7.20.4,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:07:01+00:00,android
 240829,3bc6f903023545c0,2026-09-15 07:27:23+00:00,cf68039a-60e7-4ea3-a79a-4a858cccdabc,124.217.188.215,or.app.start,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh-HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
@@ -795,6 +790,11 @@
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}}],
       dtype=object)}",CityID:0; Lang:zh-HK; Ver:7.20.4; Device:m3q;Lang:zh_HK;Ver:7.20.4,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:07:01+00:00,android
+240829,3bc6f903023545c0,2026-09-15 07:27:23+00:00,cf68039a-60e7-4ea3-a79a-4a858cccdabc,124.217.188.215,or.app.openpush,,,,"{'list': array([{'item': {'List': 0, 'Param': 'POIID', 'Value': ''}},
+       {'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}}],
+      dtype=object)}",POIID:; CityID:0;Lang:zh_HK;Ver:7.20.4,Events,Openrice_Android/7.20.4 (Android; 36) [SM-S9480];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:07:01+00:00,android
 252253,3ea40686-e25e-4ccb-9887-64c71db37c78,2026-09-15 07:18:03.400000+00:00,50c312e6-ef2b-45f7-8f30-c9ad59f45a8b,31.171.153.180,or.app.resume,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}}],
@@ -1080,15 +1080,6 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'qcksearch'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.QckSearch'}}],
       dtype=object)}","SortFlt:Distance;Page:1;savehistory:true;withinDistance:1;geo:wgs84,22.278292,114.168719,wgs84;CityID:0;Lang:hk;Ver:7.20.5;sr:qcksearch;sn:HK.QckSearch",Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
-967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:02.200000+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,impression.poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '1106148'}},
-       {'item': {'List': 0, 'Param': 'Type', 'Value': 'General'}},
-       {'item': {'List': 0, 'Param': 'sr', 'Value': '2'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.QckSearch'}}],
-      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:1106148;Type:General;sr:2;poiTypeId:1;sn:HK.QckSearch,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
 967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:02.200000+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,impression.sponsor.poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -1098,6 +1089,15 @@
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.QckSearch'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:887777;Type:General;sr:2;poiTypeId:1;sn:HK.QckSearch,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
+967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:02.200000+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,impression.poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '1106148'}},
+       {'item': {'List': 0, 'Param': 'Type', 'Value': 'General'}},
+       {'item': {'List': 0, 'Param': 'sr', 'Value': '2'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.QckSearch'}}],
+      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:1106148;Type:General;sr:2;poiTypeId:1;sn:HK.QckSearch,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
 967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:04+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,or.search.layer,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -1109,12 +1109,6 @@
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.search.layer'}},
        {'item': {'List': 0, 'Param': 'poiId', 'Value': '16379'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;sn:HK.search.layer;poiId:16379,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
-967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:16.500000+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '16379'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.search.layer'}}],
-      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:16379;sn:HK.search.layer,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
 967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:16.500000+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -1122,6 +1116,12 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'search_key_in'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.search.layer'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:16379;sr:search_key_in;sn:HK.search.layer,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
+967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:16.500000+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '16379'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.search.layer'}}],
+      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:16379;sn:HK.search.layer,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:35:01+00:00,ios
 967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,2026-09-15 07:56:24.200000+00:00,23363770-a8ea-44c0-97a3-24f6cb199b30,123.136.14.226,or.poi.map,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -1266,13 +1266,6 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.QckSearch'}}],
       dtype=object)}",CityID:0;Lang:zh_HK;Ver:7.20.4; sn:hk.QckSearch,Events,Openrice_Android/7.20.4 (Android; 36) [SM-F9660];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:10:01+00:00,android
-900640,dfc1b3ddecfc2e15,2026-09-15 07:31:26.200000+00:00,ccd4ca35-35e7-40ad-97d5-3e7b9f1ed2b3,182.239.120.86,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '747656'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
-      dtype=object)}",CityID:0;POIID:747656;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-F9660];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:10:01+00:00,android
 900640,dfc1b3ddecfc2e15,2026-09-15 07:31:26.200000+00:00,ccd4ca35-35e7-40ad-97d5-3e7b9f1ed2b3,182.239.120.86,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '747656'}},
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
@@ -1281,6 +1274,13 @@
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
       dtype=object)}",CityID:0;POIID:747656;poiTypeId:0;Sr:search_key_in;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-F9660];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:10:01+00:00,android
+900640,dfc1b3ddecfc2e15,2026-09-15 07:31:26.200000+00:00,ccd4ca35-35e7-40ad-97d5-3e7b9f1ed2b3,182.239.120.86,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '747656'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'hk.Search.layer'}}],
+      dtype=object)}",CityID:0;POIID:747656;poiTypeId:0;Lang:zh_HK;Ver:7.20.4; sn:hk.Search.layer,Events,Openrice_Android/7.20.4 (Android; 36) [SM-F9660];Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:10:01+00:00,android
 900640,dfc1b3ddecfc2e15,2026-09-15 07:31:26.200000+00:00,ccd4ca35-35e7-40ad-97d5-3e7b9f1ed2b3,182.239.120.86,or.search.layer.tips,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityId', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'zh_HK'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.4'}},
@@ -1699,21 +1699,6 @@
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:682564;Type:General;sr:2;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 07:31:01+00:00,ios
-123448,1ea45fc0-b9e7-4835-8ebe-223344650e0a,2026-09-15 07:51:22.700000+00:00,79c39fee-10bc-4803-abd9-ea09bca3afd1,49.130.130.153,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '682564'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
-      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:682564;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 07:31:01+00:00,ios
-123448,1ea45fc0-b9e7-4835-8ebe-223344650e0a,2026-09-15 07:51:22.700000+00:00,79c39fee-10bc-4803-abd9-ea09bca3afd1,49.130.130.153,or.search.get-poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '682564'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
-      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:682564;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 07:31:01+00:00,ios
 123448,1ea45fc0-b9e7-4835-8ebe-223344650e0a,2026-09-15 07:51:22.700000+00:00,79c39fee-10bc-4803-abd9-ea09bca3afd1,49.130.130.153,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -1722,6 +1707,21 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:682564;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 07:31:01+00:00,ios
+123448,1ea45fc0-b9e7-4835-8ebe-223344650e0a,2026-09-15 07:51:22.700000+00:00,79c39fee-10bc-4803-abd9-ea09bca3afd1,49.130.130.153,or.search.get-poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '682564'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
+      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:682564;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 07:31:01+00:00,ios
+123448,1ea45fc0-b9e7-4835-8ebe-223344650e0a,2026-09-15 07:51:22.700000+00:00,79c39fee-10bc-4803-abd9-ea09bca3afd1,49.130.130.153,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '682564'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
+      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:682564;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-b4jfn,2026-09-15 07:31:01+00:00,ios
 123448,1ea45fc0-b9e7-4835-8ebe-223344650e0a,2026-09-15 07:51:26.200000+00:00,79c39fee-10bc-4803-abd9-ea09bca3afd1,49.130.130.153,or.takeaway.order,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -1820,7 +1820,7 @@
        {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:885674;Type:General;sr:2;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:31:01+00:00,ios
-1025038,fe7dcdfb-1f37-442f-aabc-6c90513e31c0,2026-09-15 07:51:46.800000+00:00,ee004e2a-cf7b-43d4-ac42-490979d5b4ea,49.130.129.80,or.search.get-poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+1025038,fe7dcdfb-1f37-442f-aabc-6c90513e31c0,2026-09-15 07:51:46.800000+00:00,ee004e2a-cf7b-43d4-ac42-490979d5b4ea,49.130.129.80,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '728880'}},
@@ -1828,7 +1828,7 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:728880;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-9plj9,2026-09-15 07:31:01+00:00,ios
-1025038,fe7dcdfb-1f37-442f-aabc-6c90513e31c0,2026-09-15 07:51:46.800000+00:00,ee004e2a-cf7b-43d4-ac42-490979d5b4ea,49.130.129.80,or.poi.get-details,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+1025038,fe7dcdfb-1f37-442f-aabc-6c90513e31c0,2026-09-15 07:51:46.800000+00:00,ee004e2a-cf7b-43d4-ac42-490979d5b4ea,49.130.129.80,or.search.get-poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
        {'item': {'List': 0, 'Param': 'POIID', 'Value': '728880'}},
@@ -2351,13 +2351,6 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:678652;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:33:01+00:00,ios
-241938,3c09a1ff-e829-4900-a029-8fb5d8bcc6bf,2026-09-15 07:53:55.400000+00:00,1181ab40-95fb-40d1-92d0-73913cd60b28,219.78.77.30,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
-       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
-       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
-       {'item': {'List': 0, 'Param': 'POIID', 'Value': '678652'}},
-       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
-       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
-      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:678652;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:33:01+00:00,ios
 241938,3c09a1ff-e829-4900-a029-8fb5d8bcc6bf,2026-09-15 07:53:55.400000+00:00,1181ab40-95fb-40d1-92d0-73913cd60b28,219.78.77.30,or.search.get-poi,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
@@ -2366,6 +2359,13 @@
        {'item': {'List': 0, 'Param': 'sr', 'Value': 'sr1'}},
        {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
       dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:678652;poiTypeId:1;sr:sr1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:33:01+00:00,ios
+241938,3c09a1ff-e829-4900-a029-8fb5d8bcc6bf,2026-09-15 07:53:55.400000+00:00,1181ab40-95fb-40d1-92d0-73913cd60b28,219.78.77.30,or.poi.get-overview,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
+       {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
+       {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
+       {'item': {'List': 0, 'Param': 'POIID', 'Value': '678652'}},
+       {'item': {'List': 0, 'Param': 'poiTypeId', 'Value': '1'}},
+       {'item': {'List': 0, 'Param': 'sn', 'Value': 'HK.Search.SR1.1'}}],
+      dtype=object)}",CityID:0;Lang:hk;Ver:7.20.5;POIID:678652;poiTypeId:1;sn:HK.Search.SR1.1,Events,OpenRice_iOS/7.20.5 (iPhone; iOS 26.6.2);Lang:zh-HK,OpenRice,production-orga-openrice-netcore-app-67b5c6675c-j2lhc,2026-09-15 07:33:01+00:00,ios
 241938,3c09a1ff-e829-4900-a029-8fb5d8bcc6bf,2026-09-15 07:53:57.600000+00:00,1181ab40-95fb-40d1-92d0-73913cd60b28,219.78.77.30,or.takeaway.order,,,,"{'list': array([{'item': {'List': 0, 'Param': 'CityID', 'Value': '0'}},
        {'item': {'List': 0, 'Param': 'Lang', 'Value': 'hk'}},
        {'item': {'List': 0, 'Param': 'Ver', 'Value': '7.20.5'}},
