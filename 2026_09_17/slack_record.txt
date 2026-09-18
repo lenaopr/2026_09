@@ -57,7 +57,7 @@
 11:10:10|HK.Home
 11:10:18|HK.ThemeList.Takeaway.1
 --------------------------------------------
-瀏覽外賣自取餐廳
+瀏覽外賣自取餐廳/菜單
 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:10:52.486000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
 -[Events]:
 11:10:52|| or.takeaway.order| CityID:0; POIID:798669 ;Sr:themesr1;Lang:zh_TW;Ver:7.20.4
@@ -83,7 +83,7 @@
 -[ScreenView]:
 11:15:06|HK.Takeaway.order.798669
 --------------------------------------------
-下單
+點擊下單
 [11:15 AM]33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-17 11:15:43.084000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
 -[Events]:
 11:15:43|| or.takeaway.checkout| CityID:0; POIID:798669; Sr:menu;Lang:zh_TW;Ver:7.20.4
