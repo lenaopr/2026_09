@@ -1,7 +1,7 @@
 Less Salt Less Sugar Monthly Report (launch from 31Aug2026. last for 1 year at least)
-    Daily Badge impression by device
+    Daily Badge impression by device          --> 無法辨別poi是否有badge
     Daily Brand Page (LMS) Pageview/ Impressions     
-    Daily Theme Listing Impressions           --> adv search
+    Daily Theme Listing Impressions           --> adv search (unique user & pageview)
  
 Foodwise Monthly Report (launch from 31Aug2026. last for 1 year at least)
     Daily Badge impression by device
@@ -9,6 +9,9 @@ Foodwise Monthly Report (launch from 31Aug2026. last for 1 year at least)
     Daily Theme Listing Impressions 
     Daily POIs Impressions (SR1 and or SR2)
     Daily Map pin impressions
+
+
+slack:
 
 進入少鹽少糖界面
 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:25:18.567000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
@@ -21,13 +24,13 @@ Foodwise Monthly Report (launch from 31Aug2026. last for 1 year at least)
 09:25:54|| impression.poi| CityID:0; POIID:590531; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
 09:25:54|| impression.poi| CityID:0; POIID:517915; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
 
-點擊臨近餐廳的界面后，一間有少鹽少糖標志，一間無的餐廳:
+點擊臨近餐廳的界面后，一間有少鹽少糖標志，一間無的餐廳:        //  無法辨別是否有badge --> if poiid in the lms poi list?
 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:29:17.546000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
--[Events]:
+-[Events]:             
 09:29:17|| impression.poi| CityID:0; POIID:8039; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.Nearby.SR1.1
 09:29:40|| impression.poi| CityID:0; POIID:18658; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.Nearby.SR1.1
 
-少鹽少糖界面advance search：
+少鹽少糖界面advance search：      // sn = %hk.LMS2.%  & event action = %or.advsearch.%
 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-16 09:23:47.343000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
 -[Events]:
 09:23:47|| or.advsearch.open.filter| CityID:0;sr:qcksearch;Lang:zh_TW;Ver:7.20.4; sn:hkhk.LMS2.35336.tab.-990.1
