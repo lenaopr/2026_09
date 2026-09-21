@@ -1,4 +1,4 @@
-﻿SessionId,DeviceId,event_timeline,journey,entry_source
+﻿SessionId,DeviceId,event_timeline,journey,entry_source,
 178112,2c1ec027-be02-4201-a8ce-09c4ca6031b2,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -39,7 +39,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 127050,1f894cab868b116f,"[
   ""or.poi.get-overview"",
   ""or.poi.get-details"",
@@ -154,7 +154,7 @@
   ""確認下單"",
   ""付款"",
   ""付款""
-]",Search
+]",Search,
 925466,e5f59098851843a7,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -201,7 +201,7 @@
   ""重新載入 App"",
   ""開啟 App"",
   ""開啟 App""
-]",Search
+]",Search,
 119842,1daf763b-8da1-4b2f-b824-12d558a8ffda,"[
   ""or.app.resume"",
   ""impression.poi"",
@@ -230,7 +230,7 @@
   ""從 push notification 開啟 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",
+]",,
 252253,3ea40686-e25e-4ccb-9887-64c71db37c78,"[
   ""or.app.resume"",
   ""or.qcksearch"",
@@ -281,7 +281,7 @@
   ""離開餐廳評論"",
   ""進入外賣自取點餐頁/菜單"",
   ""重新載入 App""
-]",Search
+]",Search,
 818327,cb512dc0-6f1c-4824-8d2e-e08565916438,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -310,7 +310,7 @@
   ""確認下單"",
   ""重新載入 App"",
   ""付款""
-]",Search
+]",Search,
 240829,3bc6f903023545c0,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -341,7 +341,7 @@
   ""重新載入 App"",
   ""開啟 App"",
   ""從 push notification 開啟 App""
-]",TakeawayButton
+]",TakeawayButton,
 967536,f056f88d-d2ad-4051-af5b-0b81ecd249bf,"[
   ""or.app.resume"",
   ""or.qcksearch"",
@@ -394,7 +394,7 @@
   ""瀏覽POI"",
   ""瀏覽POI"",
   ""瀏覽POI""
-]",Search
+]",Search,
 693064,ac224d2f-4326-4a83-b662-ea697ee607b1,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -423,7 +423,7 @@
   ""付款"",
   ""重新載入 App"",
   ""載入「我的訂單」列表""
-]",Bookmark
+]",Bookmark,
 573457,8e82b9d6-fc46-4090-ae71-8b74568fddc7,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -642,7 +642,7 @@
   ""從 push notification 開啟 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Bookmark
+]",Bookmark,
 900640,dfc1b3ddecfc2e15,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -673,7 +673,7 @@
   ""前往結帳"",
   ""確認下單"",
   ""付款""
-]",Search
+]",Search,
 325898,50f5822a-8e8c-4475-aa44-0f01befa198e,"[
   ""or.app.start"",
   ""or.search.themelist.takeaway"",
@@ -724,7 +724,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 241938,3c09a1ff-e829-4900-a029-8fb5d8bcc6bf,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -773,7 +773,7 @@
   ""付款"",
   ""重新載入 App"",
   ""載入「我的訂單」列表""
-]",Search
+]",Search,
 634061,9d9cac6ddd300204,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -802,7 +802,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 275540,447732ed-a9da-4a73-8f5b-e8a6fd65ed1e,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -873,7 +873,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 548826,886fd7f4-bb08-4544-943f-01239e4b5d78,"[
   ""or.app.start"",
   ""or.app.resume"",
@@ -900,7 +900,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Deeplink
+]",Deeplink,
 606579,96caf64d-bfac-493d-89fa-bb2717ce26c2,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -1017,7 +1017,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 123448,1ea45fc0-b9e7-4835-8ebe-223344650e0a,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1060,7 +1060,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 1025038,fe7dcdfb-1f37-442f-aabc-6c90513e31c0,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1101,7 +1101,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 251316,3e690f18-1c08-4e82-9fbd-f7d00b62f792,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1146,7 +1146,7 @@
   ""重新載入 App"",
   ""載入 POI 詳情"",
   ""載入 POI 概覽""
-]",Search
+]",Search,
 784432,c2f3e75e-11d6-42c4-a230-090882971150,"[
   ""or.app.start"",
   ""user.myor"",
@@ -1171,7 +1171,7 @@
   ""重新載入 App"",
   ""付款"",
   ""重新載入 App""
-]",OrderHistory
+]",OrderHistory,
 979474,f3451c8d7a316e94,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -1254,7 +1254,7 @@
   ""開啟 App"",
   ""點擊「我的」"",
   ""user.settings.enter""
-]",TakeawayButton
+]",TakeawayButton,
 10650,029c3705953a0a62,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -1283,7 +1283,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 718235,b27a13055cc40ff4,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -1316,7 +1316,7 @@
   ""確認下單"",
   ""付款"",
   ""付款""
-]",Search
+]",Search,
 860586,d5ca5b82-3401-4eab-9ee1-6068b4dadd8e,"[
   """",
   ""or.takeaway.order"",
@@ -1333,7 +1333,7 @@
   ""付款"",
   """",
   """"
-]",
+]",,
 122390,1e5c215959a63cad,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -1368,7 +1368,7 @@
   ""重新載入 App"",
   ""確認下單"",
   ""付款""
-]",Search
+]",Search,
 311131,4d5b5e4a-c1e3-4fb0-8b3e-8523d6398915,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1393,7 +1393,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",OrderHistory
+]",OrderHistory,
 882129,db32fb6e-2f98-4f2a-b0c2-25534d0620ec,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -1442,7 +1442,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 614375,98b33fa8-4f0d-466b-a93c-0161cdf89a0f,"[
   ""or.app.resume"",
   ""or.qcksearch"",
@@ -1489,7 +1489,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 698762,ad914e3c-c5f0-4d18-b145-23853034186f,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1742,7 +1742,7 @@
   ""瀏覽POI"",
   ""從收藏清單搜尋收藏 POI "",
   ""瀏覽POI""
-]",Search
+]",Search,
 891968,dd9bf291-d86a-4d0e-bc09-6a6ed65b5d34,"[
   ""or.app.resume"",
   ""or.qcksearch"",
@@ -1765,7 +1765,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 179357,2c7264b0622de168,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -1810,7 +1810,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 645479,a064c3ab-36e5-4282-8092-5fd708b778da,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1843,7 +1843,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 660394,a417fcd1-4714-4744-9d82-6cd2014a5505,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1876,7 +1876,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 845831,d226a1ed-3f25-4ea3-bf64-4e5a7a456956,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -1913,7 +1913,7 @@
   ""前往結帳"",
   ""確認下單"",
   ""付款""
-]",Search
+]",Search,
 401105,63da3296-74ca-40b7-8e3a-490c4a79cedd,"[
   ""or.app.start"",
   ""or.app.resume"",
@@ -1974,7 +1974,7 @@
   ""重新載入 App"",
   ""點擊「我的」"",
   ""載入「我的訂單」列表""
-]",
+]",,3
 790288,c45c8684-10a6-4e0d-b599-63a357a91231,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2011,7 +2011,7 @@
   ""重新載入 App"",
   ""從 push notification 開啟 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 504418,7d770618-72f3-48ac-949c-d0254b3bd08c,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2054,7 +2054,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 699557,adc63a9b-a949-4e31-9aef-4f702750d0af,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2077,7 +2077,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",TakeawayButton
+]",TakeawayButton,
 509274,7eabb81e-813c-47e3-9ba8-aa3dd62e5508,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2126,7 +2126,7 @@
   ""進入外賣自取點餐頁/菜單"",
   ""前往結帳"",
   ""付款""
-]",
+]",,3
 299137,4a6234ed-d5e1-4f58-8a6f-a56c1ba9abd0,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2153,7 +2153,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""付款""
-]",Search
+]",Search,
 477746,76c0188d-07f0-40d1-9714-ca268a3a93ca,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -2180,7 +2180,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 785875,c34a007358b81079,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2259,7 +2259,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 578606,8fc809f6-c936-43d0-b333-dd1ecaa89639,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2312,7 +2312,7 @@
   ""載入 POI 詳情"",
   ""or.poi.doorPhoto"",
   ""重新載入 App""
-]",Search
+]",Search,
 184869,2dcaf373-ea0f-4932-b4a9-614d12dd1c3a,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2367,7 +2367,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 232507,39a865ad-4622-4834-9eb1-9fe977330485,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2468,7 +2468,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 107217,1a9cb6ed-e759-43be-ab19-0a1f777497de,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2507,7 +2507,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 319389,4f607ac0-12e9-47a2-b57a-b4d4bc77dc00,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2544,7 +2544,7 @@
   ""確認下單"",
   ""重新載入 App"",
   ""付款""
-]",Search
+]",Search,
 443267,6e2b3c04-4acc-4778-9b19-acf8a0a53f17,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -2585,7 +2585,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 723505,b3c89e06-3bd3-4c2f-a888-e8a06faa1971,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -2606,7 +2606,7 @@
   ""確認下單"",
   ""重新載入 App"",
   ""付款""
-]",Search
+]",Search,
 914983,e35dc34d-ec4a-462d-aab3-6f1e2f899d67,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2643,7 +2643,7 @@
   ""開啟 App"",
   ""點擊「我的」"",
   ""載入「我的訂單」列表""
-]",OrderHistory
+]",OrderHistory,
 378939,5e52239269834752,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -2668,7 +2668,7 @@
   ""前往結帳"",
   ""確認下單"",
   ""付款""
-]",TakeawayButton
+]",TakeawayButton,
 147322,2491ef0a-a81a-463f-82d8-c520ffade3d1,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2703,7 +2703,7 @@
   ""開啟 App"",
   ""從 push notification 開啟 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 426676,6a1390c3-bf6a-4744-8276-a01294ef166b,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2738,7 +2738,7 @@
   ""從 push notification 開啟 App"",
   ""重新載入 App"",
   ""開啟 App""
-]",Search
+]",Search,
 465038,73982e17-9be5-4cfe-9374-bdb129e6a093,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -2765,7 +2765,7 @@
   ""確認下單"",
   ""重新載入 App"",
   ""付款""
-]",Search
+]",Search,
 228021,388d053e-6020-49a7-bd32-52c711a867aa,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -2820,7 +2820,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",TakeawayButton
+]",TakeawayButton,
 752657,bafd0736-6b3c-4686-a252-e7b7b8674a4c,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -2867,7 +2867,7 @@
   ""進入外賣自取點餐頁/菜單"",
   ""poi.emenu.photo"",
   ""進入外賣自取點餐頁/菜單""
-]",Search
+]",Search,
 1024944,fe78af08-ca24-4263-b7fc-ac790e6dcb59,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -2900,7 +2900,7 @@
   ""重新載入 App"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 341766,54eac6cf710145d6,"[
   ""or.app.resume"",
   ""or.takeaway.view-basket"",
@@ -2919,7 +2919,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",
+]",,1
 751827,bac964baf63f0a28,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -3070,7 +3070,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 370894,5c5145b0-9e5d-4355-b911-34ed7a2c0ece,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3171,7 +3171,7 @@
   ""載入 POI 詳情"",
   ""從搜尋結果進入 POI"",
   ""分享餐廳""
-]",Search
+]",Search,
 967032,f03a4846-42be-46cd-9471-71d6b720c147,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3214,7 +3214,7 @@
   ""重新載入 App"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 804320,c7d178d1-cffa-4528-9c1c-d2c48a7d4340,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3241,7 +3241,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 835069,cf76a97b9655cfa2,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -3284,7 +3284,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 162027,28321867-6f3f-4d1e-9080-52a2333b9523,"[
   ""or.app.start"",
   ""user.myor"",
@@ -3311,7 +3311,7 @@
   ""付款"",
   ""重新載入 App"",
   ""開啟 App""
-]",OrderHistory
+]",OrderHistory,
 800689,c6eb4c70eceb89ea,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -3370,7 +3370,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",
+]",,3
 777059,c110f1dc-13d1-4b2a-8b10-b972a7a0e537,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3407,7 +3407,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 479998,774ef3e1-c0e0-4760-978b-25d789c5ab3c,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3486,7 +3486,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 764966,be04fba4-dcde-4ef9-996a-2b03dca1186c,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3535,7 +3535,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 774952,c08bc4a9-87f7-42ed-b9bc-397d08d090b5,"[
   ""or.app.start"",
   ""or.app.resume"",
@@ -3608,7 +3608,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 939742,e974f9a0-45ce-40cb-a7e6-448e1f49d9da,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3639,7 +3639,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",OrderHistory
+]",OrderHistory,
 951191,ec51be9c-070e-47bc-af2f-2c2643144b9b,"[
   ""or.app.start"",
   ""user.myor"",
@@ -3668,7 +3668,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",OrderHistory
+]",OrderHistory,
 835400,cf8947fe-bc1d-409e-9c26-70957408bb38,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3687,7 +3687,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",TakeawayButton
+]",TakeawayButton,
 477735,76bf19b4-312a-4cbb-80bf-42942ce322fc,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3724,7 +3724,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 691997,abdf494f-c379-4f2e-a417-1d331b7b7d0a,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -3745,7 +3745,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",TakeawayButton
+]",TakeawayButton,
 918592,e444db83-5d1c-4a84-a7f9-b2e10c0dec1e,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -3818,7 +3818,7 @@
   ""重新載入 App"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 657464,a35933d6-16b8-481d-9643-75e342ea52a4,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -3879,7 +3879,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 1023495,fe211913c1022426,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -3910,7 +3910,7 @@
   ""前往結帳"",
   ""確認下單"",
   ""付款""
-]",Search
+]",Search,
 218004,3610be4db381fbef,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -3977,7 +3977,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 781815,c2482360-a603-4938-ae3b-0982101ee026,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4002,7 +4002,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 71460,11af986c-1949-464e-981e-122a975ab524,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -4039,7 +4039,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 657896,a3732e0e-a3fc-408f-9c9e-f2a1dfb0a5ce,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4082,7 +4082,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 572827,8e58593864089302,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -4113,7 +4113,7 @@
   ""前往結帳"",
   ""確認下單"",
   ""付款""
-]",Search
+]",Search,
 390264,6123a5a0-5974-4053-a198-e9a7aac12e82,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4140,7 +4140,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",TakeawayButton
+]",TakeawayButton,
 727318,b4b61c5f-7851-4ebc-b51b-8306fc768be0,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4173,7 +4173,7 @@
   ""載入 POI 詳情"",
   ""載入 POI 概覽"",
   ""離開 POI 頁面""
-]",Search
+]",Search,
 528093,8358e39a-c455-4f60-b89f-61bc0dbc8432,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4212,7 +4212,7 @@
   ""付款"",
   ""重新載入 App"",
   ""從 push notification 開啟 App""
-]",TakeawayButton
+]",TakeawayButton,
 785165,c31e40ac4e4c6cc3,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -4245,7 +4245,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",
+]",,3
 218164,361a0617-df2d-4941-bf2d-e08a9b9d58ea,"[
   ""or.app.start"",
   ""or.poi.get-details"",
@@ -4304,7 +4304,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 107741,1abc95c73fa9a414,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -4337,7 +4337,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 163693,289af735-77c3-4dfb-a9f2-e536b3d61d0a,"[
   ""or.app.resume"",
   ""or.qcksearch"",
@@ -4466,7 +4466,7 @@
   ""重新載入 App"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 495137,7b1c8d5e-dd67-4cab-a6b9-cbbba7e51b15,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4497,7 +4497,7 @@
   ""重新載入 App"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 183601,2d7bc0d1543e96a3,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -4546,7 +4546,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 79793,13c89eb5-daed-4836-9767-78df455bf339,"[
   ""or.app.resume"",
   ""or.qcksearch"",
@@ -4581,7 +4581,7 @@
   ""新增收藏"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 541332,8697581a-4b30-4fee-936c-672bf2e41a9b,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4660,7 +4660,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 998627,f7f9013d-24fb-4163-a67c-fea3fe84d089,"[
   """",
   ""or.takeaway.order"",
@@ -4685,7 +4685,7 @@
   ""付款"",
   """",
   """"
-]",
+]",,2
 575573,8f07146afa4042f4,"[
   ""or.app.start"",
   ""or.app.start"",
@@ -4716,7 +4716,7 @@
   ""確認下單"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
 446503,6ef7488d-0ba3-4f3d-bdab-9e4a4355dee1,"[
   ""or.app.start"",
   ""or.qcksearch"",
@@ -4747,7 +4747,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 978762,f31a3999-2c20-4541-b438-7b81a5a67c77,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4778,7 +4778,7 @@
   ""付款"",
   ""重新載入 App"",
   ""重新載入 App""
-]",Search
+]",Search,
 992237,f65a3864-4cf8-41a4-8d3b-19d23c8f35d5,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4813,7 +4813,7 @@
   ""重新載入 App"",
   ""載入 POI 概覽"",
   ""載入 POI 詳情""
-]",Search
+]",Search,
 764669,bdf241c5-721e-4ec8-a225-a9e372667627,"[
   ""or.app.resume"",
   ""or.app.start"",
@@ -4850,4 +4850,4 @@
   ""重新載入 App"",
   ""付款"",
   ""重新載入 App""
-]",Search
+]",Search,
