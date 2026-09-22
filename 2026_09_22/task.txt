@@ -1,0 +1,7 @@
+1. LSLS
+
+2. takeaway order
+    raw data of last month
+    hv "cancel order time" & "order accepted time by merchant"
+
+    
