@@ -56,3 +56,10 @@ soft link:
 import shutil
 shutil.copy('/BQ2.json', './BQ2.json')
 print('已複製到目前資料夾')
+
+
+cell 8的結果web的内容無法捕捉到，是因爲我設置的條件web event裏不會記錄event action的内容，請你參考cell 6的sql寫法，它這樣寫能捕捉到web和所有不同系統的活躍内容。
+
+1. cell8我的寫法只基於android系統的slack記錄，其他os可能無法捕捉到
+
+如何解決這個問題？
