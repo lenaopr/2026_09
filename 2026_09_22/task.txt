@@ -1,7 +1,9 @@
 1. LSLS
 
-2. takeaway order
+2. takeaway order (from Tom)
     raw data of last month
     hv "cancel order time" & "order accepted time by merchant"
 
-    
+3. takeaway order (from Manson)
+    order create time - merchant accept time
+    hourly distribution average time breakdown.
