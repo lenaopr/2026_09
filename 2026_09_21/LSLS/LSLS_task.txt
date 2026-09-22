@@ -63,3 +63,66 @@ cell 8的結果web的内容無法捕捉到，是因爲我設置的條件web even
 1. cell8我的寫法只基於android系統的slack記錄，其他os可能無法捕捉到
 
 如何解決這個問題？
+
+
+adv search：
+User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 17:38:12.860000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+17:38:12|HK.QckSearch
+17:38:12|HK.Search.layer
+17:38:15|HK.AdvSearch
+17:38:21|HK.LMS2.35336.tab.-990.1
+User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 17:38:23.832000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+17:38:23|| or.search.adv| CityID:0;geo:22.2915161%2C114.2081815;LndID:35336;Page:1;sr:lmsSr1;Lang:zh_TW;Ver:7.20.4; sn:hk.AdvSearch
+17:38:23|| view.SR1.Promotion| CityID:0;PromotionID:13%2C13%2C13%2C13%2C13%2C13%2C13%2C13%2C13%2C12%2C13%2C13%2C13%2C13%2C13%2C13;;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+17:38:24|| impression.poi| CityID:0; POIID:683935; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+17:38:24|| impression.poi| CityID:0; POIID:517915; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+
+--------------------------------------------
+[5:38 PM]User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 17:38:12.860000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+17:38:12|| or.qcksearch| CityID:0;Lang:zh_TW;Ver:7.20.4; sn:hk.Home
+17:38:12|| or.search.layer| CityID:0;Lang:zh_TW;Ver:7.20.4; sn:hk.QckSearch
+17:38:15|| or.advsearch.open.filter| CityID:0;sr:qcksearch;Lang:zh_TW;Ver:7.20.4; sn:hk
+
+
+
+
+User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 18:08:07.082000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+18:08:07|| or.advsearch.open.filter| CityID:0;sr:qcksearch;Lang:zh_TW;Ver:7.20.4; sn:hk
+
+--------------------------------------------
+[6:08 PM]User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 18:08:23.048000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+18:08:23|HK.LMS2.35336.tab.-990.1
+
+--------------------------------------------
+[6:08 PM]User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 18:08:25.343000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+18:08:25|| or.search.adv| CityID:0;geo:22.2915758%2C114.2081138;LndID:35336;Page:1;sr:lmsSr1;Lang:zh_TW;Ver:7.20.4; sn:hk.AdvSearch
+18:08:25|| view.SR1.Promotion| CityID:0;PromotionID:13%2C13%2C13%2C13%2C13%2C13%2C13%2C13%2C13%2C12%2C13%2C13%2C13%2C13%2C13%2C13;;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+18:08:26|| impression.poi| CityID:0; POIID:19824; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+18:08:26|| impression.poi| CityID:0; POIID:683935; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+
+
+
+
+
+
+
+
+
+theme Listing
+User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 18:01:37.736000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[Events]:
+18:01:37|| or.search.layer.search| CityID:0;geo:22.2915594%2C114.2081171;LndID:35336;Page:1;sr:lmsSr1;Lang:zh_TW;Ver:7.20.4; sn:hk.Search.layer
+18:01:37|| view.SR1.Promotion| CityID:0;PromotionID:13%2C13%2C13%2C13%2C13%2C13%2C13%2C13%2C13%2C12%2C13%2C13%2C13%2C13%2C13%2C13;;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+18:01:38|| impression.poi| CityID:0; POIID:683935; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+18:01:38|| impression.poi| CityID:0; POIID:590531; Type:General; poiTypeId:1; Sr:2;Lang:zh_TW;Ver:7.20.4; sn:hk.LMS2.35336.tab.-990.1
+
+--------------------------------------------
+[6:01 PM]User: 33774e3b-11d2-49b9-9ed0-154bf5846f8c@2026-09-22 18:01:35.076000+08:00 Openrice_Android/7.20.4 (Android; 36) [24129PN74C];Lang:zh-TW:
+-[ScreenView]:
+18:01:35|HK.LMS2.35336.tab.-990.1
