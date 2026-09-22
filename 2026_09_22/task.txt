@@ -6,4 +6,4 @@
 
 3. takeaway order (from Manson)
     order create time - merchant accept time
-    hourly distribution average time breakdown.
+    hourly distribution average order accept time breakdown.
