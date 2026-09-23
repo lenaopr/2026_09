@@ -1,7 +1,7 @@
 Less Salt Less Sugar Monthly Report (launch from 31Aug2026. last for 1 year at least)
     1. Daily Badge impression by device          --> 無法辨別poi是否有badge
     2. Daily Brand Page (LMS) Pageview/ Impressions     
-    3. Daily Theme Listing Impressions           --> adv search (unique user & pageview)
+    3. Daily Theme Listing Impressions           --> search --> 少鹽少糖
  
 Foodwise Monthly Report (launch from 31Aug2026. last for 1 year at least)
     Daily Badge impression by device
