@@ -1,0 +1,3 @@
+OR App 同 Merchant App iOS 有幾多active user 係ios version <17
+ 
+PS: 黎緊ios support XCode 27.1, 想改app store minimum version support >=17
