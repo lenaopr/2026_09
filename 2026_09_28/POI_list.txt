@@ -1,20 +1,32 @@
 POI List: unique restaurant with label
 
-Label 1 Dish (Active)
-中式糖水
-台式飲品
-甜品/糖水
-西式糕點
-麵包店
+Label 1 Dish (Active), CategoryTypeId = 2
+中式糖水,  CategoryId = 1202
+台式飲品,  CategoryId = 1006
+甜品/糖水,  CategoryId = 1014
+西式糕點,  CategoryId = 1203
+麵包店,  CategoryId = 1003
 
-Label 2 Amenity (Active)
-快餐店
-樓上cafe
-糖水舖
-茶餐廳/冰室
-蛋糕店
+1003
+1006
+1014
+1202
+1203
 
-- status in (10,3)
+Label 2 Amenity (Active), CategoryTypeId = 3
+快餐店   1007
+樓上cafe  1024
+糖水舖     20230
+茶餐廳/冰室   1009
+蛋糕店     1094
+
+1007
+1009
+1024
+1094
+20230
+
+- PoiStatus in (Normal: 10, Renovate: 3)
 - region = 0
 
 
@@ -25,8 +37,8 @@ openrise3 --> Table Category
  - CategoryTypeId: 
     1 = Cuisine
     2 = Dish
-    3 = Theme
-    4 = Amenity
+    4 = Theme
+    3 = Amenity
     5 = Retail
  
 - NameLang1: 菜品分類 in Chinese (SQL condition: NameLang1 = N'xxxx', for unique code)
