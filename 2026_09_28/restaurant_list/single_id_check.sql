@@ -26,4 +26,12 @@ AND RegionId = 0
 糖水舖     20230
 茶餐廳/冰室   1009
 蛋糕店     1094
+
+SELECT TOP 1000 * 
+FROM [POI] P
+INNER JOIN [CategoryPoi] CP ON CP.Poiid = P.Poiid
+WHERE CP.CategoryId = 1202 AND CP.CategoryTypeId = 2
+AND P.[Status] IN (10, 3)
+AND P.RegionId = 0
+
 */
