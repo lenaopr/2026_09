@@ -1,4 +1,6 @@
 
+use [openrice3];
+
 SELECT C.NameLang1 AS Dish, count(*) as Active
 FROM [POI] P
 INNER JOIN [CategoryPoi] CP ON CP.Poiid = P.Poiid

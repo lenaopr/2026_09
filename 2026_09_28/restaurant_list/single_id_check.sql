@@ -1,3 +1,5 @@
+use [openrice3];
+
 SELECT * 
 FROM [POI] P
 INNER JOIN [CategoryPoi] CP ON CP.Poiid = P.Poiid

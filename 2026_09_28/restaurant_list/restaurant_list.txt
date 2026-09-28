@@ -1,51 +1,46 @@
 POI List: unique restaurant with label
 
-Label 1 Dish (Active), CategoryTypeId = 2
-中式糖水,  CategoryId = 1202
-台式飲品,  CategoryId = 1006
-甜品/糖水,  CategoryId = 1014
-西式糕點,  CategoryId = 1203
-麵包店,  CategoryId = 1003
+Label 1 Dish, CategoryTypeId = 2, CategoryId:
+中式糖水 = 1202
+台式飲品 = 1006
+甜品/糖水 = 1014
+西式糕點 = 1203
+麵包店 = 1003
 
-1003
-1006
-1014
-1202
-1203
+1003, 1006, 1014, 1202, 1203
 
-Label 2 Amenity (Active), CategoryTypeId = 3
-快餐店   1007
-樓上cafe  1024
-糖水舖     20230
-茶餐廳/冰室   1009
-蛋糕店     1094
+Label 2 Amenity, CategoryTypeId = 3, CategoryId:
+快餐店 = 1007
+樓上cafe = 1024
+糖水舖  = 20230
+茶餐廳/冰室 = 1009
+蛋糕店 = 1094
 
-1007
-1009
-1024
-1094
-20230
+1007, 1009, 1024, 1094, 20230
 
-- PoiStatus in (Normal: 10, Renovate: 3)
-- region = 0
+- Active: PoiStatus in (Normal: 10, Renovate: 3)
+- PoiRegion = 0
 
 
---> Overall list and then DISTINCT POI ID
+--> Overall list and then DISTINCT
 
 
 openrise3 --> Table Category
  - CategoryTypeId: 
     1 = Cuisine
     2 = Dish
-    4 = Theme
     3 = Amenity
+    4 = Theme
     5 = Retail
  
 - NameLang1: 菜品分類 in Chinese (SQL condition: NameLang1 = N'xxxx', for unique code)
 
-先查categorytypeid 對應的categoryid： e.g. 中式糖水categorytypeid = 2, categoryid = 1202
-餐廳狀態限制： status in （10: active, 3: 裝修ing）
+先查 CategoryTypeId (Dish = 2, Amenity = 3) 對應的 CategoryId： e.g. 中式糖水 categorytypeid = 2, categoryid = 1202  --> mapping
+餐廳狀態限制： status in （10: active, 3: renovate）
 餐廳地區限制： openrise3 = hk & macau， hk: RegionId = 0
 
-所以是category table join categorypoi
-
+所以是
+1. mapping (category table, 用 categorytypeid & NameLang1 找對應的 category id)
+2. category join categorypoi --> category id = category id, categorytypeid = categorytypeid
+3. poi join categorypoi --> poi id = poi id
+4. Unique (因爲同一間餐廳可能同屬於不同的菜系：categoryid)

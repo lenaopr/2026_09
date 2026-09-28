@@ -1,4 +1,4 @@
-use openrice3
+use [openrice3];
 
 SELECT CategoryId, CategoryTypeId, NameLang1
 FROM [dbo].[Category]

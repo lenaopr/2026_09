@@ -1,3 +1,5 @@
+use [openrice3];
+
 SELECT count(P.Poiid) AS count
 -- SELECT P.*
 FROM [POI] AS P
