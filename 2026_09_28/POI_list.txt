@@ -1,0 +1,27 @@
+POI List: unique restaurant with label
+
+Label 1 Dish (Active)
+Label 2 Amenity (Active)
+- status in (10,3)
+- region = 0
+
+
+--> Overall list and then DISTINCT POI ID
+
+
+openrise3 --> Table Category
+ - CategoryTypeId: 
+    1 = Cuisine
+    2 = Dish
+    3 = Theme
+    4 = Amenity
+    5 = Retail
+ 
+- NameLang1: 菜品分類 in Chinese (SQL condition: NameLang1 = N'xxxx', for unique code)
+
+先查categorytypeid 對應的categoryid： e.g. 中式糖水categorytypeid = 2, categoryid = 1202
+餐廳狀態限制： status in （10: active, 3: 裝修ing）
+餐廳地區限制： openrise3 = hk & macau， hk: RegionId = 0
+
+所以是category table join categorypoi
+
