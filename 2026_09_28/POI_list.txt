@@ -1,7 +1,19 @@
 POI List: unique restaurant with label
 
 Label 1 Dish (Active)
+中式糖水
+台式飲品
+甜品/糖水
+西式糕點
+麵包店
+
 Label 2 Amenity (Active)
+快餐店
+樓上cafe
+糖水舖
+茶餐廳/冰室
+蛋糕店
+
 - status in (10,3)
 - region = 0
 
