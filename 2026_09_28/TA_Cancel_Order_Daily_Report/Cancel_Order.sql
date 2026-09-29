@@ -4,7 +4,7 @@
         SELECT
             tao.ORPoiId,
             tao.PoiId,
-            CAST(tao.PaymentTime AS date) AS payment_date,
+            CAST(tao.PaymentTime AS date) AS payment_date,            -- completedtime
             tao.Status
         FROM mars.dbo.TakeAwayOrder tao WITH (NOLOCK)
         WHERE tao.PaymentTime >= DATEADD(day, -30, @report_date)
