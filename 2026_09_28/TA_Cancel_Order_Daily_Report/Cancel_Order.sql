@@ -39,4 +39,5 @@
     INNER JOIN mars.dbo.Poi p WITH (NOLOCK)
         ON (p.ORPoiId = oc.ORPoiId and p.PoiId = oc.PoiId)
     WHERE p.Status in (10, 3)         -- 10: normal, 3: renovate
+      AND oc.day_1_cancel_order > 0
     ORDER BY p.ORPoiId, p.PoiId;
