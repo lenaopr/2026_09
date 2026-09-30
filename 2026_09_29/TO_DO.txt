@@ -1,0 +1,16 @@
+TO DO 0930:
+
+1. python script:
+- big query 
+- database 
+
+2. Hang Lung Monthly LMS Report (b4 10.7, email by Mandy Chan)
+--> 10.1 start, 10.7 ddl
+
+(DONE)**3. Cancel Order Distribution (email by Mandy Ip)
+
+4. Abnormal Behaviour Investigation (from Manson)
+
+5. Search Keyword in past 3 months report (from Tom)
+
+**6. Frontend Meeting (TA funneling analysis)

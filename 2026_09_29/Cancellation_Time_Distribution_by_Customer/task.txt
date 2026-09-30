@@ -1,0 +1,2 @@
+to analyze the distribution of the time between order placement and cancellation for all orders cancelled by customers. 
+full monthly reports for June, July, and August
