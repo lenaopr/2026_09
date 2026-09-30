@@ -11,6 +11,15 @@
           AND tao.PaymentTime < @report_date
           AND tao.PaymentTime IS NOT NULL
           AND tao.Status IN (0, 4, 10)           --"AutoDeclined": "0",  "CancelledByUser": "4", "Completed": "10"
+          AND (
+                tao.Status = 10
+                OR (
+                    tao.Status IN (0, 4)                 -- The order cancelled within 1 min is not counted
+                    AND tao.CancelledTime IS NOT NULL
+                    AND DATEDIFF(second, tao.PaymentTime, tao.CancelledTime) > 60
+                )
+            )
+
     ),
     order_counts AS (
         SELECT
@@ -40,4 +49,5 @@
         ON (p.ORPoiId = oc.ORPoiId and p.PoiId = oc.PoiId)
     WHERE p.Status in (10, 3)         -- 10: normal, 3: renovate
       AND oc.day_1_cancel_order > 0
+      -- AND DATEDIFF(minute, oc.payment_date, oc.cancel_date) > 1   -- The order cancelled within 1 min is not counted. 
     ORDER BY p.ORPoiId, p.PoiId;
