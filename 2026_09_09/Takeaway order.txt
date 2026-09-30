@@ -25,3 +25,12 @@ print(real_file)
 !ln -s "{real_file}" enum_file（可命名爲其他）
 刪除軟連接
 !rm enum_file
+
+
+2. SG_Booking_Postpaid_Monthly_Report (Aug 2026) --> missing enum
+report:
+http://192.168.61.59:8888/
+
+and use command like this.
+
+find . -name "*.ipynb" -not -path "*image*" -print0 | xargs -0 grep "Postpaid"
