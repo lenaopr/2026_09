@@ -1,6 +1,6 @@
 TO DO 0930:
 
-1. python script:
+(DONE) 1. python script:
 - big query 
 - database 
 
