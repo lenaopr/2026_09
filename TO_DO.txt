@@ -5,7 +5,7 @@ TO DO 0930:
 - database 
 
 2. Hang Lung Monthly LMS Report (b4 10.7, email by Mandy Chan)
---> 10.1 start, 10.7 ddl
+--> 10.2 start, 10.7 ddl
 
 (DONE)**3. Cancel Order Distribution (email by Mandy Ip)
 
