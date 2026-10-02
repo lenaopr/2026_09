@@ -2,8 +2,8 @@ use openrice3;
 -- SELECT * from openrice3.dbo.Landmark (NOLOCK) WHERE lower(namelang2) like N'%fashion walk%';
 ---21	淘大商場
 ---9313	Fashion Walk
-DECLARE @start_date DATE = '2026-09-01',
-@end_date DATE = '2026-09-30',
+DECLARE @start_date DATE = '2026-08-01',
+@end_date DATE = '2026-08-31',
 @regionid INT = 0,
 @landmarkid INT = 9313;
 
