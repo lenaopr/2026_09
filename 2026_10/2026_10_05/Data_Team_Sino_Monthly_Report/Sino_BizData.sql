@@ -1,0 +1,115 @@
+DECLARE @landmarkId as int
+DECLARE @START as nvarchar(20)
+DECLARE @END as nvarchar(20)
+DECLARE @LandmarkName as nvarchar(20)
+
+SET @landmarkId = 35329
+
+--42
+--65
+--35215
+--35329
+
+SET @START = '2026-09-01'
+SET @END = '2026-10-01'
+
+SELECT @LandmarkName = Namelang1 FROM openrice3.dbo.Landmark WHERE LandmarkId = @LandmarkId;
+
+---------
+
+SELECT
+    Bookmark = SUM(CASE WHEN [Source] <> 20 AND CreateTime < @END THEN 1 ELSE 0 END),
+    Bookmark_new = SUM(CASE WHEN CreateTime >= @START AND CreateTime < @END THEN 1 ELSE 0 END)
+FROM openrice3.dbo.BookmarkPoi (nolock)
+WHERE Poiid IN (SELECT L.Poiid FROM openrice3.dbo.[LandmarkPoi] L
+INNER JOIN openrice3.dbo.POI P ON P.Poiid = L.POiid
+WHERE LandmarkId = @landmarkId
+AND P.[Status] in (3, 10)
+);
+
+SELECT POIID INTO #BBO_POIID FROM mars.dbo.Poi MP WHERE MP.ORPoiId IN (
+(SELECT L.Poiid FROM openrice3.dbo.[LandmarkPoi] L
+INNER JOIN openrice3.dbo.POI P ON P.Poiid = L.POiid
+WHERE LandmarkId = @landmarkId
+AND P.[Status] in (3, 10)
+)) AND RegionId = 0;
+
+--SELECT Booking
+
+SELECT COUNT(DISTINCT POIID)AS 'BOOKING', COUNT(1) FROM mars.dbo.Booking WHERE
+BookingTime > @START AND BookingTime < @END AND [Status] = 10
+AND POIID IN (SELECT POIID FROM #BBO_POIID);
+
+SELECT DISTINCT @LandmarkName AS 'BOOKING', P.NameLang1 FROM mars.dbo.Poi P 
+INNER JOIN mars.dbo.BizService BS ON P.Poiid = BS.Poiid
+WHERE P.Poiid IN (
+SELECT DISTINCT POIID FROM mars.dbo.Booking WHERE
+BookingTime > @START AND BookingTime < @END AND [Status] = 10
+AND POIID IN (SELECT POIID FROM #BBO_POIID));
+
+--SELECT Voucher
+
+SELECT COUNT(DISTINCT P.NameLang1) FROM mars.dbo.Poi P 
+INNER JOIN mars.dbo.BizService BS ON P.Poiid = BS.Poiid
+WHERE BS.ServiceStartTime < @END AND BS.ServiceEndTime >= @END
+AND P.POIID IN (SELECT POIID FROM #BBO_POIID)
+AND BS.ServiceTypeId IN (5);
+
+SELECT COUNT(DISTINCT POIID) AS 'VoucherRedeemed'
+FROM mars.dbo.OfferWallet OW 
+INNER JOIN mars.dbo.OfferPoi O ON O.OfferId = OW.OfferId
+INNER JOIN mars.dbo.Offer OO ON OO.OfferId = O.OfferId
+WHERE OW.CreateTime > @START AND OW.CreateTime < @END AND OW.[Status] =15
+AND POIID IN (SELECT POIID FROM #BBO_POIID)
+AND RedeemPoiId IN (SELECT POIID FROM #BBO_POIID)
+AND OO.OfferType IN (7, 18, 22);
+
+SELECT DISTINCT @LandmarkName AS 'Voucher', P.NameLang1 FROM mars.dbo.Poi P 
+INNER JOIN mars.dbo.BizService BS ON P.Poiid = BS.Poiid
+WHERE BS.ServiceStartTime < @END AND BS.ServiceEndTime >= @END
+AND P.POIID IN (SELECT POIID FROM #BBO_POIID)
+AND BS.ServiceTypeId IN (5);
+
+
+--SELECT TAS--
+DECLARE @MIN_TakeAwayOrderID AS int
+
+SELECT @MIN_TakeAwayOrderID = MAX(TakeAwayOrderID) FROM mars.dbo.TakeAwayOrder (nolock)
+WHERE CreateTime < @Start;
+
+SELECT COUNT(DISTINCT POIID) aS 'TAS', COUNT(1) FROM mars.dbo.TakeAwayOrder (nolock)
+WHERE TakeAwayOrderId >= @MIN_TakeAwayOrderID AND CreateTime < @END AND [Status] = 10
+AND POIID IN (SELECT POIID FROM #BBO_POIID);
+
+
+SELECT DISTINCT @LandmarkName aS 'TAS', P.NameLang1 FROM mars.dbo.Poi P 
+INNER JOIN mars.dbo.BizService BS ON P.Poiid = BS.Poiid
+WHERE BS.ServiceStartTime < @END AND BS.ServiceEndTime >= @END
+AND P.POIID IN (
+SELECT DISTINCT POIID FROM mars.dbo.TakeAwayOrder (nolock)
+WHERE TakeAwayOrderId >= @MIN_TakeAwayOrderID AND CreateTime < @END AND [Status] = 10
+AND POIID IN (SELECT POIID FROM #BBO_POIID)
+
+)
+AND BS.ServiceTypeId IN (4);
+
+
+--MEDIA
+
+SELECT SUM(HitCount) AS Views, COUNT(1) FROM openrice3.dbo.[Media] P
+INNER JOIN openrice3.dbo.LandmarkPoi LP ON P.Poiid = LP.Poiid
+INNER JOIN openrice3.dbo.POi PP ON PP.Poiid = P.PoiId
+WHERE LP.LandmarkId = @landmarkId
+AND PP.PoiTypeId = 10;
+
+
+SELECT @LandmarkName, PP.NameLang1, SUM(HitCount) AS Views FROM openrice3.dbo.[Media] P
+INNER JOIN openrice3.dbo.LandmarkPoi LP ON P.Poiid = LP.Poiid
+INNER JOIN openrice3.dbo.POi PP ON PP.Poiid = P.PoiId
+WHERE LP.LandmarkId = @landmarkId
+AND PP.PoiTypeId = 10 
+GROUP BY PP.NameLang1
+
+
+DROP TABLE #BBO_POIID;
+    
