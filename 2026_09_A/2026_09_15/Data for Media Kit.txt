@@ -1,13 +1,17 @@
 
-Data for Media Kit (Aug 2026)
 
-1.            Total unique users ever booked (total table via OR) = 4053829
-2.            Average Daily Bookings (Aug 2026) = 12649
-3.            Asia Miles Bound Accounts = 601282
-4.            OpenRice Macau monthly page views (Aug 2026) = 2123588
+Change DATE !!!!!!!!!!!!!!!
+
+
+Data for Media Kit (Sep 2026)
+
+1.            Total unique users ever booked (total table via OR) = 4076518
+2.            Average Daily Bookings (Sep 2026) = 12264
+3.            Asia Miles Bound Accounts = 603285
+4.            OpenRice Macau monthly page views (Sep 2026) = 1701190
 -------------------------------------------------------------------------------
-5.            Total Bookmark count for ONLY HK Active POIs = 81681624
-6.            Total Bookmark count for ALL REGIONS Active POIs (including HK) = 84042623
+5.            Total Bookmark count for ONLY HK Active POIs = 81852469
+6.            Total Bookmark count for ALL REGIONS Active POIs (including HK) = 84211463
 -------------------------------------------------------------------------------
-7.            HK – MAU (Aug 2026) = 566685
-8.            HK – no. users whom have bind Credit Card = 637611
+7.            HK – MAU (Sep 2026) = 4391339
+8.            HK – no. users whom have bind Credit Card = 639586

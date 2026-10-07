@@ -1,6 +1,11 @@
+
+
+Update: 20261006
+
+
 1. Add CN booking raw data （from Manson)
 (DONE) 2. LSLS report
-(DONE)3. TA Alert report resend
+(DONE) 3. TA Alert report resend
 (DONE) 4. Data team Sino monthly LMS
 5. 寵物
 6. Latest 3 month, Keyword report

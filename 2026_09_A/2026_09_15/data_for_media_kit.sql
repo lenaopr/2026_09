@@ -1,6 +1,6 @@
 
-DECLARE @start_date DATE = '2026-08-01';
-DECLARE @end_date DATE = '2026-08-31';
+DECLARE @start_date DATE = '2026-09-01';                 ----- change DATE !!!!!!!
+DECLARE @end_date DATE = '2026-09-30';
 
  use mars
 
@@ -8,7 +8,7 @@ DECLARE @end_date DATE = '2026-08-31';
 Select COUNT(DISTINCT CAST(UserId AS nvarchar(20)) + CAST(DinerPhone_Hash AS nvarchar(30)))
 FROM [Booking] (nolock) B
 WHERE BookingTime < @end_date
- AND Source IN (1, 4, 5, 6, 7, 9, 11, 12, 13, 21, 25, 26, 27, 28, 29, 30) 
+ AND Source IN (1, 4, 5, 6, 7, 9, 11, 12, 13, 21, 25, 26, 27, 28, 29, 30)
 
 
  ----2.  Average Daily Bookings 
@@ -17,7 +17,7 @@ left join poi p (nolock) on b.poiid = p.poiid
 where p.status not in (2,6) 
 and bookingtime>=@start_date and bookingtime<@end_date
 and b.status =10
- AND Source IN (1, 4, 5, 6, 7, 9, 11, 12, 13, 21, 25, 26, 27, 28, 29, 30) 
+ AND Source IN (1, 4, 5, 6, 7, 9, 11, 12, 13, 21, 25, 26, 27, 28, 29, 30)
 
 
 ----3. Asia Miles Bound Accounts 
@@ -31,10 +31,10 @@ AND ModifyTime < @end_date
 --- 4.       OpenRice Macau monthly page views (Aug 2026)  -->  Big query
 /*
 SELECT 
-(select count(1) FROM `openrice-production.ORGA.SV_202608*` 
+(select count(1) FROM `openrice-production.ORGA.SV_202609*`        -------- DATE!!!!! 
 where platform in ('android', 'ios') and region = 'MO')
 +
-(select count(1) from `openrice-production.ORGA.PV_202608*` 
+(select count(1) from `openrice-production.ORGA.PV_202609*` 
 where Platform in ('mobile', 'desktop', 'tablet') and eventcategory = 'PageView' and eventlabelraw like '%/macau/%')
 */
 
@@ -45,8 +45,9 @@ where Platform in ('mobile', 'desktop', 'tablet') and eventcategory = 'PageView'
 
 
 --- 7. HK - MAU
-SELECT count(distinct UserDeviceId) from UserDevice 
-WHERE convert(Date, ModifyTime) between @start_date and @end_date
+--- Tom's country monthly report (sum up "Active Guest + Member (XXX)")
+-- SELECT count(distinct UserDeviceId) from UserDevice 
+-- WHERE convert(Date, ModifyTime) between @start_date and @end_date
 
 --- 8. bind card
 use mars;
