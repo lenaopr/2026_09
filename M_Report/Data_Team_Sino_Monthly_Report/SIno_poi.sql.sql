@@ -3,29 +3,10 @@ DECLARE @START as nvarchar(20)
 DECLARE @END as nvarchar(20)
 DECLARE @LandmarkName as nvarchar(20)
 
-SET @landmarkId = 42
-
---42
---65
---35215
---35329
+SET @landmarkId = 37 
 
 SET @START = '2026-09-01'
 SET @END = '2026-10-01'
-
-SELECT @LandmarkName = Namelang1 FROM openrice3.dbo.Landmark WHERE LandmarkId = @LandmarkId;
-
----------
-
-SELECT
-    Bookmark = SUM(CASE WHEN [Source] <> 20 AND CreateTime < @END THEN 1 ELSE 0 END),
-    Bookmark_new = SUM(CASE WHEN CreateTime >= @START AND CreateTime < @END THEN 1 ELSE 0 END)
-FROM openrice3.dbo.BookmarkPoi (nolock)
-WHERE Poiid IN (SELECT L.Poiid FROM openrice3.dbo.[LandmarkPoi] L
-INNER JOIN openrice3.dbo.POI P ON P.Poiid = L.POiid
-WHERE LandmarkId = @landmarkId
-AND P.[Status] in (3, 10)
-);
 
 SELECT POIID INTO #BBO_POIID FROM mars.dbo.Poi MP WHERE MP.ORPoiId IN (
 (SELECT L.Poiid FROM openrice3.dbo.[LandmarkPoi] L
@@ -34,8 +15,9 @@ WHERE LandmarkId = @landmarkId
 AND P.[Status] in (3, 10)
 )) AND RegionId = 0;
 
---SELECT Booking
-
+-----------------------------------------------------------------------
+-- No. of POIs - Booking	
+-- No. of Booking	
 SELECT COUNT(DISTINCT POIID)AS 'BOOKING', COUNT(1) FROM mars.dbo.Booking WHERE
 BookingTime > @START AND BookingTime < @END AND [Status] = 10
 AND POIID IN (SELECT POIID FROM #BBO_POIID);
@@ -47,8 +29,8 @@ SELECT DISTINCT POIID FROM mars.dbo.Booking WHERE
 BookingTime > @START AND BookingTime < @END AND [Status] = 10
 AND POIID IN (SELECT POIID FROM #BBO_POIID));
 
---SELECT Voucher
-
+-- No. of POIs - Voucher	
+-- No. of Voucher Transaction
 SELECT COUNT(DISTINCT P.NameLang1) FROM mars.dbo.Poi P 
 INNER JOIN mars.dbo.BizService BS ON P.Poiid = BS.Poiid
 WHERE BS.ServiceStartTime < @END AND BS.ServiceEndTime >= @END
@@ -71,7 +53,8 @@ AND P.POIID IN (SELECT POIID FROM #BBO_POIID)
 AND BS.ServiceTypeId IN (5);
 
 
---SELECT TAS--
+-- No. of POIs - Takeaway	
+-- No. of Takeaway Transaction
 DECLARE @MIN_TakeAwayOrderID AS int
 
 SELECT @MIN_TakeAwayOrderID = MAX(TakeAwayOrderID) FROM mars.dbo.TakeAwayOrder (nolock)
@@ -94,7 +77,7 @@ AND POIID IN (SELECT POIID FROM #BBO_POIID)
 AND BS.ServiceTypeId IN (4);
 
 
---MEDIA
+-- Retail POIs Video Views
 
 SELECT SUM(HitCount) AS Views, COUNT(1) FROM openrice3.dbo.[Media] P
 INNER JOIN openrice3.dbo.LandmarkPoi LP ON P.Poiid = LP.Poiid
