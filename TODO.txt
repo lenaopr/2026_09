@@ -1,11 +1,17 @@
 
-
 Update: 20261006
 
 (DONE) 1. Add CN booking raw data
 (DONE) 2. LSLS report
 (DONE) 3. TA Alert report resend
-(DONE 1/2) 4. Data team Sino monthly LMS Report
+(DONE) 4. Data team Sino monthly LMS Report (Figure + List)
 5. 寵物友好餐廳report
 6. Latest 3 month, Keyword report
 7. Abnormal Behavior Tracking ?
+
+
+Update: 20261008
+
+(DONE by Tony) 1. Email: Booking Tracking Check (Request from Ice Chen)
+2. [Book-with-Menu] User list for targeting purpose - for OCT 2026
+3. Report of gingersoft restaurant
