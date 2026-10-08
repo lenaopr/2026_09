@@ -12,5 +12,5 @@ Update: 20261006
 Update: 20261008
 
 (DONE by Tony) 1. Email: Booking Tracking Check (Request from Ice Chen)
-2. [Book-with-Menu] User list for targeting purpose - for OCT 2026
+(DONE) 2. [Book-with-Menu] User list for targeting purpose - for OCT 2026
 (DONE) 3. Report of gingersoft restaurant
