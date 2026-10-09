@@ -5,7 +5,7 @@ Update: 20261006
 (DONE) 2. LSLS report
 (DONE) 3. TA Alert report resend
 (DONE) 4. Data team Sino monthly LMS Report (Figure + List)
-5. 寵物友好餐廳report
+(DONE) 5. 寵物友好餐廳report
 6. Latest 3 month, Keyword report
 7. Abnormal Behavior Tracking ?
 
@@ -14,3 +14,8 @@ Update: 20261008
 (DONE by Tony) 1. Email: Booking Tracking Check (Request from Ice Chen)
 (DONE) 2. [Book-with-Menu] User list for targeting purpose - for OCT 2026
 (DONE) 3. Report of gingersoft restaurant
+
+Update: 20261009
+1. Lisa Lee: Sino report follow Up
+**2. Ken Ma: Coomission Rates - Restaurants with TAS
+3. TA Alert report resend
